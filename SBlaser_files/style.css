@@ -170,7 +170,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.wesley_tm_header.scroll .wesley_tm_navigation_wrap .menu > ul > li:hover a{color: #fd4d4d;}
+.wesley_tm_header.scroll .wesley_tm_navigation_wrap .menu > ul > li:hover a{color: #DD942E;}
 .wesley_tm_navigation_wrap,
 .wesley_tm_navigation_wrap .navigation_inner{
 	width: 100%;
@@ -237,7 +237,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.wesley_tm_navigation_wrap .menu > ul > li:hover a{color: #fd4d4d;}
+.wesley_tm_navigation_wrap .menu > ul > li:hover a{color: #DD942E;}
 .wesley_tm_navigation_wrap .social_icons_wrap{
 	position: absolute;
 	right: 0px;
@@ -527,7 +527,7 @@ img.svg{
 	margin-bottom: 30px;
 }
 .wesley_tm_hero_title .name span{
-	color: #fd4d4d;
+	color: #DD942E;
 	font-size: 75px;
 }
 .wesley_tm_hero_share{
@@ -554,7 +554,7 @@ img.svg{
 	
 	transition: all .3s ease;
 }
-.wesley_tm_hero_share ul li a:hover{color: #fd4d4d;	}
+.wesley_tm_hero_share ul li a:hover{color: #DD942E;	}
 .wesley_tm_hero_share ul li a i{
 	font-size: 17px;
 }
@@ -609,7 +609,7 @@ img.svg{
 .wesley_tm_button a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -716,7 +716,7 @@ img.svg{
 	width: 40%;
 	bottom: 0px;
 	top: 15%;
-	border: 10px solid #fd4d4d;
+	border: 10px solid #DD942E;
 	z-index: -2;
 }
 .wesley_tm_about_wrap .rightbox{
@@ -746,7 +746,7 @@ img.svg{
 }
 .wesley_tm_about_wrap .definition p:last-child{margin-bottom: 0px;}
 .wesley_tm_about_wrap .definition strong{
-	color: #fd4d4d;
+	color: #DD942E;
 	font-family: "Montserrat";
 }
 .wesley_tm_skills_wrap,
@@ -925,7 +925,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.wesley_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #fd4d4d;}
+.wesley_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #DD942E;}
 .wesley_tm_about_wrap .buttons_wrap{
 	width: 100%;
 	height: auto;
@@ -948,7 +948,7 @@ img.svg{
 .wesley_tm_about_wrap .buttons_wrap ul li a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -972,7 +972,7 @@ img.svg{
 	z-index: 2;
 }
 .wesley_tm_about_wrap .buttons_wrap ul li a.download:hover{
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	color: #fff;
 }
 .wesley_tm_about_wrap .buttons_wrap ul li a:before{
@@ -1125,7 +1125,7 @@ img.svg{
 	line-height: 70px;
 	margin: 0px auto;
 	border-radius: 100%;
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	margin-bottom: 28px;
 }
 .wesley_tm_services_wrap ul li .inner .image .svg{
@@ -1149,7 +1149,7 @@ img.svg{
 	right: 0px;
 	height: 2px;
 	width: 100%;
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	z-index: 1;
 	
 	-webkit-transition: all .4s ease;
@@ -1163,7 +1163,7 @@ img.svg{
 	background-color: rgba(10,4,37,1);
 }
 .wesley_tm_services_wrap ul li .inner:hover .image{background-color: #fff;}
-.wesley_tm_services_wrap ul li .inner:hover .image .svg{color: #fd4d4d;}
+.wesley_tm_services_wrap ul li .inner:hover .image .svg{color: #DD942E;}
 .wesley_tm_services_wrap ul li .inner:hover span{color: #fff;}
 .wesley_tm_services_wrap ul li .inner:hover p{color: #eee;}
 
@@ -1587,7 +1587,7 @@ img.svg{
 	     -o-transition: all .1s ease;
 	        transition: all .1s ease;
 }
-.wesley_tm_portfolio_filter li a.current{color: #fd4d4d;}
+.wesley_tm_portfolio_filter li a.current{color: #DD942E;}
 
 /* PORTFOLIO LIST */
 
@@ -1813,7 +1813,7 @@ img.svg{
 	right: 100%;
 	margin-right: 8px;
 }
-.wesley_tm_news_wrap .date_wrap p a:hover{color: #fd4d4d;}
+.wesley_tm_news_wrap .date_wrap p a:hover{color: #DD942E;}
 .wesley_tm_news_wrap .title_holder{margin-bottom: 18px;}
 .wesley_tm_news_wrap .title_holder h3{
 	color: #fff;
@@ -1833,13 +1833,13 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.wesley_tm_news_wrap .title_holder h3 a:hover{color: #fd4d4d;}
+.wesley_tm_news_wrap .title_holder h3 a:hover{color: #DD942E;}
 .wesley_tm_news_wrap .definition{margin-bottom: 26px;}
 .wesley_tm_news_wrap .definition p{color: #333;}
 .wesley_tm_news_wrap .read_more a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #DD942E;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -2010,7 +2010,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-#wesley_tm_popup_blog .wesley_tm_popup_share_wrap ul li a:hover{color: #fd4d4d;}
+#wesley_tm_popup_blog .wesley_tm_popup_share_wrap ul li a:hover{color: #DD942E;}
 #wesley_tm_popup_blog .close{
 	position: absolute;
 	top: 30px;
@@ -2102,7 +2102,7 @@ img.svg{
 }
 .wesley_tm_contact_wrap .main_input_wrap .wrap input:focus{
 	outline: none;
-	border-bottom-color: #fd4d4d;
+	border-bottom-color: #DD942E;
 }
 .wesley_tm_contact_wrap .main_input_wrap .wrap textarea{
 	width: 100%;
@@ -2115,13 +2115,13 @@ img.svg{
 }
 .wesley_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
-	border-bottom-color: #fd4d4d;
+	border-bottom-color: #DD942E;
 }
 .wesley_tm_contact_wrap .wesley_tm_button{text-align: center;}
 .wesley_tm_contact_wrap .wesley_tm_button a{
 	text-decoration: none;
     color: #fff;
-    background-color: #fd4d4d;
+    background-color: #DD942E;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 15px 40px;
@@ -2187,7 +2187,7 @@ img.svg{
 .wesley_tm_address_holder_wrap .inner_wrap ul li .svg{
 	width: 19px;
 	height: 19px;
-	color: #fd4d4d;
+	color: #DD942E;
 }
 .wesley_tm_address_holder_wrap .inner_wrap ul li p{color: #fff;}
 .wesley_tm_address_holder_wrap .inner_wrap ul li p a{
@@ -2200,7 +2200,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.wesley_tm_address_holder_wrap .inner_wrap ul li p a:hover{color: #fd4d4d;}
+.wesley_tm_address_holder_wrap .inner_wrap ul li p a:hover{color: #DD942E;}
 .wesley_tm_footer_wrap{
 	width: 100%;
 	height: auto;
@@ -2228,7 +2228,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.wesley_tm_footer_wrap p a:hover{color: #fd4d4d;}
+.wesley_tm_footer_wrap p a:hover{color: #DD942E;}
 
 /*---------------------------------------------------*/
 /*	14) WESLEY TO TOP
@@ -2243,7 +2243,7 @@ img.svg{
 	line-height: 38px;
 	z-index: 100;
 	overflow: hidden;
-	background: #fd4d4d;
+	background: #DD942E;
 	opacity: 0;
 	visibility: hidden;
 	text-align: center;
@@ -2354,7 +2354,7 @@ img.svg{
     line-height: 1.2;
     margin-bottom: 10px;
 }
-.wesley_tm_hero_title_second .name span{color: #fd4d4d;}
+.wesley_tm_hero_title_second .name span{color: #DD942E;}
 .wesley_tm_hero_title_second .subtitle{
 	color: #fff;
     font-size: 24px;
@@ -2373,7 +2373,7 @@ img.svg{
 .wesley_tm_hero_button a{
 	text-decoration: none;
     color: #fff;
-    background-color: #fd4d4d;
+    background-color: #DD942E;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 15px 40px;
@@ -2431,7 +2431,7 @@ img.svg{
 .wesley_tm_service_wrapper_all[data-style="second"] .wesley_tm_services_wrap_second{display: block;}
 .wesley_tm_services_wrap_second .wesley_tm_main_title_holder{margin-bottom: 90px;}
 .wesley_tm_service_wrapper_all[data-style="second"]{padding-bottom: 22px;}
-.wesley_tm_services_wrap_second .service_icon .svg{color: #fd4d4d;}
+.wesley_tm_services_wrap_second .service_icon .svg{color: #DD942E;}
 
 /*---------------------------------------------------*/
 /*	17) HOMEPAGE 7
@@ -2548,7 +2548,7 @@ img.svg{
 .wesley_tm_intro_universal_bg_wrap .purchase_button a{
 	text-decoration: none;
     color: #fff;
-    background-color: #fd4d4d;
+    background-color: #DD942E;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 12px 40px;
