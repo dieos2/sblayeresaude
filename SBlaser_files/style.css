@@ -117,7 +117,7 @@ img.svg{
     position: absolute;
     height: 50%;
     width: 100%;
-    background-color: rgba(10,4,37,1);
+    background-color: rgba(49, 45, 64, 0.69);
 	
     -webkit-transition: .7s all ease;
     -o-transition: .7s all ease;
@@ -484,7 +484,7 @@ img.svg{
 	z-index: 20;
 }
 .wesley_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/2.jpg);}
-.wesley_tm_universal_box_wrap .overlay_color.hero{background-color: rgba(10,4,37,.85);}
+.wesley_tm_universal_box_wrap .overlay_color.hero{background-color: rgba(49, 45, 64, 0.69);}
 .wesley_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -629,7 +629,7 @@ img.svg{
 	height: 100%;
 	left: -25%;
 	width: 0%;
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 	transform: skew(50deg);
 	transition-duration: .6s;
 	z-index: 1;
@@ -735,7 +735,7 @@ img.svg{
 }
 .wesley_tm_about_wrap .subtitle p{
 	font-family: "Montserrat";
-	color: rgba(10,4,37,1);
+	color: rgba(49, 45, 64, 0.69);
 	font-size: 15px;
 	font-weight: 600;
 }
@@ -982,7 +982,7 @@ img.svg{
 	height: 100%;
 	left: -25%;
 	width: 0%;
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 	transform: skew(50deg);
 	transition-duration: .6s;
 	z-index: 1;
@@ -1160,7 +1160,7 @@ img.svg{
 }
 .wesley_tm_services_wrap ul li .inner:hover .overlay_color{
 	height: 100%;
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 }
 .wesley_tm_services_wrap ul li .inner:hover .image{background-color: #fff;}
 .wesley_tm_services_wrap ul li .inner:hover .image .svg{color: #DD942E;}
@@ -1674,7 +1674,7 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .wesley_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/hero/3.jpg);}
-.wesley_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(10,4,37,.85);}
+.wesley_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(49, 45, 64, 0.69);}
 .wesley_tm_universal_box_wrap .content.testimonial{padding: 92px 0px 95px 0px;}
 .wesley_tm_testimonial_wrap{
 	width: 100%;
@@ -1859,7 +1859,7 @@ img.svg{
 	height: 100%;
 	left: -25%;
 	width: 0%;
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 	transform: skew(50deg);
 	transition-duration: .6s;
 	z-index: 1;
@@ -2097,7 +2097,7 @@ img.svg{
 	text-align: center;
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid rgba(10,4,37,1);
+	border-bottom: 1px solid rgba(49, 45, 64, 0.69);
 	color: #333;
 }
 .wesley_tm_contact_wrap .main_input_wrap .wrap input:focus{
@@ -2110,7 +2110,7 @@ img.svg{
 	text-align: center;
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid rgba(10,4,37,1);
+	border-bottom: 1px solid rgba(49, 45, 64, 0.69);
 	color: #333;
 }
 .wesley_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
@@ -2159,7 +2159,7 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .wesley_tm_address_holder_wrap{
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 }
 .wesley_tm_address_holder_wrap .inner_wrap{
 	text-align: center;
@@ -2207,7 +2207,7 @@ img.svg{
 	clear: both;
 	float: left;
 	text-align: center;
-	background-color: rgba(10,4,37,1);
+	background-color: rgba(49, 45, 64, 0.69);
 	padding: 50px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -2399,7 +2399,7 @@ img.svg{
     z-index: 1;
 }
 .wesley_tm_hero_button a:hover:before{width: 170%;}
-.wesley_tm_hero_button a:hover{color: rgba(10,4,37,1);}
+.wesley_tm_hero_button a:hover{color: rgba(49, 45, 64, 0.69);}
 .progress_bar_wrap_total[data-space="small"] .wesley_tm_progress{margin-bottom: 15px;}
 .progress_bar_wrap_total[data-space="big"] .wesley_tm_progress{margin-bottom: 25px;}
 .wesley_tm_service_wrapper_all[data-bg="any_color"] {background-color: #f7f7f7;}
