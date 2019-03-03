@@ -30,7 +30,7 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
         <meta name="description" content="Neon Admin Panel" />
         <meta name="author" content="" />
 
-        <title>Distribuidora | Dashboard</title>
+        <title>SB Laser e Saúde | Dashboard</title>
         <?php $this->head() ?>
 
         <link href="/css/colorpicker.css" rel="stylesheet" type="text/css"/>
@@ -60,7 +60,7 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                         <i class="fa fa-bars"></i> 
                     </a>
                     <a href="#" class="navbar-brand" data-toggle="fullscreen">
-                        <img src="/images/logo.png" class="m-r-sm">Parazão 2016</a>
+                        <img src="/images/logo.png" class="m-r-sm">SBLES</a>
                     <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user">
                         <i class="fa fa-cog"></i> 
                     </a>
@@ -167,7 +167,7 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                                                 <a href="/confronto/index/0" class="active">
                                                     <i class="fa fa-bolt icon">
                                                         <b class="bg-danger"></b>
-                                                    </i>  <span>Confrontos</span>
+                                                    </i>  <span>Notícias</span>
                                                 </a>
                                             </li>
  
@@ -176,7 +176,7 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                                                 <a href="/rank/index/<?php echo $modelUsers->id?>" class="active">
                                                     <i class="fa fa-dashboard icon">
                                                         <b class="bg-danger"></b>
-                                                    </i>  <span>Meus Pontos</span>
+                                                    </i>  <span>Serviços</span>
                                                 </a>
                                             </li>
                                             <li>
@@ -187,16 +187,16 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                                                     <span class="pull-right">
                                                         <i class="fa fa-angle-down text"></i>
                                                         <i class="fa fa-angle-up text-active"></i> </span>
-                                                    <span>Grupos</span> 
+                                                    <span>Cursos</span> 
                                                 </a>
                                                 <ul class="nav lt">
-                                                   <?php foreach (\app\models\Grupo::find()->all() as $grupo){ ?>
+                                                 
                                                        
                                                     <li>
-                                                        <a href="/grupotime/index/<?php echo $grupo->id ?>"> <i class="fa fa-angle-right"></i>  <span><?php echo $grupo->nome ?></span> 
+                                                        <a href="/grupotime/index/"> <i class="fa fa-angle-right"></i>  <span></span> 
                                                         </a>
                                                     </li>
-                                                   <?php } ?>
+                                                 
                                                    
                                                   
                                                  
@@ -208,7 +208,7 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                                                         <b class="bg-success"></b>
                                                     </i>
 
-                                                    <span>Ranking</span>
+                                                    <span>Agenda</span>
                                                 </a>
 
                                             </li>
