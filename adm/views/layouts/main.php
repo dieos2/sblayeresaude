@@ -190,14 +190,13 @@ $modelUsers =  User::findByUsername(Yii::$app->user->identity->username)
                                                     <span>Grupos</span> 
                                                 </a>
                                                 <ul class="nav lt">
-                                                   <?php foreach (\app\models\Grupo::find()->all() as $grupo){ ?>
+                                                  
                                                        
                                                     <li>
-                                                        <a href="/grupotime/index/<?php echo $grupo->id ?>"> <i class="fa fa-angle-right"></i>  <span><?php echo $grupo->nome ?></span> 
+                                                        <a href="/grupotime/index/0"> <i class="fa fa-angle-right"></i>  <span>nn</span> 
                                                         </a>
                                                     </li>
-                                                   <?php } ?>
-                                                   
+                                                  
                                                   
                                                  
                                                 </ul>

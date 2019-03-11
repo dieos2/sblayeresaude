@@ -109,9 +109,7 @@ HeadAsset::register($this);
 ?>
 
 
-        Nome? <?php echo $name; ?>
-		<br\>
-		id? <?php echo $id; ?>
+       
 
 
                 </section>
