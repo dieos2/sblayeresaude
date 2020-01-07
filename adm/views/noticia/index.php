@@ -9,20 +9,27 @@ use yii\grid\GridView;
 $this->title = 'Noticias';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="noticia-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<section class="vbox">
+    <section class="scrollable padder">
+        <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+            <li><a href="/confronto/index/0">Todos</a></li>
+          
+        </ul>
+   <div class="row">
+            <div class="col-md-12">                         
+                <div class="m-b-md"> <h3 class="m-b-none"><?= Html::encode($this->title) ?></h3> </div>
+   
 
     <p>
-        <?= Html::a('Create Noticia', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nova Noticia', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+          
 
-            'id',
+           
             'titulo',
             'chamada',
             'id_user',
@@ -36,4 +43,6 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]); ?>
 
-</div>
+</div></div>
+    </section>
+</section>
