@@ -3,8 +3,8 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=sbsaude',
-    'username' => 'dieos',
-    'password' => 'di140984',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8',
 ];
 //return [

@@ -69,7 +69,7 @@ HeadAsset::register($this);
 		<div class="container">
 			<div class="inner_popup scrollable" tabindex="5000" style="height: 477px; overflow: hidden; outline: none;"></div>
 		</div>
-		<span class="close"><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"></a></span>
+		<span class="close"><a href="#"></a></span>
 	</div>
 	
     <!-- HEADER -->
@@ -78,19 +78,21 @@ HeadAsset::register($this);
 			<div class="container">
 				<div class="navigation_inner">
 					<div class="logo">
-						<a class="light_logo" href="http://frenify.com/envato/marketify/html/wesley/1/index.html"><img src="./SBlaser_files/logo.png" alt=""></a>
+						<a class="light_logo" href="#"><img width="118" src="./SBlaser_files/logo.png" alt=""></a>
 					</div>
 					<div class="nav_list_wrap">
 						<div class="menu">
 							<ul class="anchor_nav">
 								<li class="current"><a href="#home">Home</a></li>
-								<li class=""><a href="#about">Sobre</a></li>
+								<li class=""><a href="#sobre">Atuação</a></li>
+								<li class=""><a href="#about">Perfil</a></li>
+									<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
-								<li class=""><a href="#cursos">Cursos</a></li>
+							
 								<li class=""><a href="#portfolio">Agenda</a></li>
-								<li class=""><a href="#testimonials">Testemunhos</a></li>
-								<li class=""><a href="#news">Noticias</a></li>
-								<li class=""><a href="#contact">Contato</a></li>
+								<li class=""><a href="#testimonials">Depoimentos</a></li>
+								<li class=""><a href="#news">Notícias</a></li>
+								<li class=""><a href="#contact">Contatos</a></li>
 							</ul>
 						</div>
 					</div>
@@ -107,13 +109,16 @@ HeadAsset::register($this);
    		<div class="wesley_tm_mobile_menu_wrap">
    			<div class="mob_menu">
 				<ul class="anchor_nav">
-					<li class="current"><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#home">Home</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#about">About</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#services">Services</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#portfolio">Portfolio</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#testimonials">Testimonials</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#news">News</a></li>
-					<li class=""><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#contact">Contact</a></li>
+					<li class="current"><a href="#home">Home</a></li>
+								<li class=""><a href="#sobre">Atuação</a></li>
+								<li class=""><a href="#about">Perfil</a></li>
+									<li class=""><a href="#cursos">Cursos</a></li>
+								<li class=""><a href="#services">Serviços</a></li>
+							
+								<li class=""><a href="#portfolio">Agenda</a></li>
+								<li class=""><a href="#testimonials">Depoimentos</a></li>
+								<li class=""><a href="#news">Notícias</a></li>
+								<li class=""><a href="#contact">Contatos</a></li>
 				</ul>
 			</div>
 		</div>

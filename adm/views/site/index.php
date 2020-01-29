@@ -49,13 +49,13 @@
                     </div>
                     <div class="rightbox">
                         <div class="wesley_tm_main_title_holder about">
-                            <h3>Perfil</h3>
+                            <h3 style="color: orange">Sávio Bastos</h3>
                         </div>
-                        <div class="subtitle"><p>Fonoaudiólogo</p></div>
+                        <div class="subtitle"><p>Fonoaudiólogo. CRFa 9-9318-5</p></div>
                         <div class="definition">
-                            <p>Olá! Meu nome é <strong>Sávio Bastos</strong>. Chefe do Serviço de Fonoaudiologia do Hospital de Pronto Socorro Municipal Mário Pinotti – Belém-PA. 
+                            <p>Chefe do Serviço de Fonoaudiologia do Hospital de Pronto Socorro Municipal Mário Pinotti – Belém-PA. 
 
-                            <p>- Docente das Pós-graduações de Motricidade Orofacial e Voz da Universidade São Caetano do Sul (Laserterapia).</p>
+                            <p>- Docente das Pós-graduações de Voz e Motricidade da Universidade São Caetano do Sul (Laserterapia).</p>
 
                             <p>- Docente da Pós-graduação de Acupuntura da Faculdade Inspirar (Auriculoterapia).</p>
 
@@ -69,28 +69,10 @@
 
                             <p>- Professor de Auriculoterapia.
                             </p>
+							<p>- Formação em Auriculoterapia (Escolas Chinesa e Frances), Craniopuntura e Terapia CranioSacral. </p>
 
                         </div>
-                        <!--                        <div class="about_short_contact_wrap">
-                                                    <ul>
-                                                        <li>
-                                                            <span><label>Phone:</label> +77 022 177 05 05</span>
-                                                        </li>
-                                                        <li>
-                                                            <span><label>Mail:</label> <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html">example@gmail.com</a></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>-->
-                        <!--                        <div class="buttons_wrap">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="download" href="http://frenify.com/envato/marketify/html/wesley/1/index.html"><span>Download CV</span></a>
-                                                        </li>
-                                                        <li class="anchor">
-                                                            <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#contact"><span>Send Message</span></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>-->
+                       
                     </div>
                 </div>
             </div>
@@ -99,40 +81,29 @@
     <!-- /ABOUT -->
 
     <!-- SKILLS -->
-    <div class="wesley_tm_section">
-        <div class="wesley_tm_skills_wrap">
-            <div class="container">
-                <div class="inner_wrap">
-                    <div class="leftbox">
-                        <h3>We provide high quality and cost effective services.</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.</p>
-                    </div>
-                    <div class="rightbox">
-                        <div class="progress_bar_wrap_total">
-                            <div class="wesley_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
-                                <div class="wesley_tm_progress" data-value="95" data-color="#000">
-                                    <span><span class="label">Wordpress - <span class="experience">5 years of experience</span></span><span class="number">95%</span></span>
-                                    <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap open"><div class="wesley_tm_bar" style="width: 95%; background-color: rgb(0, 0, 0);"></div></div></div>
-                                </div>
-                                <div class="wesley_tm_progress" data-value="85" data-color="#000">
-                                    <span><span class="label">Css - <span class="experience">3 years of experience</span></span><span class="number">85%</span></span>
-                                    <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap open"><div class="wesley_tm_bar" style="width: 85%; background-color: rgb(0, 0, 0);"></div></div></div>
-                                </div>
-                                <div class="wesley_tm_progress" data-value="75" data-color="#000">
-                                    <span><span class="label">HTML - <span class="experience">4 years of experience</span></span><span class="number">75%</span></span>
-                                    <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap open"><div class="wesley_tm_bar" style="width: 75%; background-color: rgb(0, 0, 0);"></div></div></div>
-                                </div>
-                                <div class="wesley_tm_progress" data-value="90" data-color="#000">
-                                    <span><span class="label">After Effect - <span class="experience">6 years of experience</span></span><span class="number">90%</span></span>
-                                    <div class="wesley_tm_bar_bg"><div class="wesley_tm_bar_wrap open"><div class="wesley_tm_bar" style="width: 90%; background-color: rgb(0, 0, 0);"></div></div></div>
-                                </div>
-                            </div>
+    <div class="wesley_tm_section"  id="sobre">
+	<div class="wesley_tm_first_style">
+                <div class="wesley_tm_main_title_holder">
+                    <h3>Atuação</h3>
+                  
+                </div>
+         <div class="container">
+            <div class="">
+                <div class="author_wrap">
+                 
+                 
+                       
+                        <div class="definition">
+                          <p style="font-size: 20px"> A Sávio Bastos Laser e Saúde (cor laranja) é uma empresa de Cursos e Consultoria para aprimoramento de profissionais da área da saúde, direcionada principalmente para formações em Fotobiomodulação e Fonoaudiologia. Também contempla atendimentos de Fonoaudiologia em âmbito hospitalar e clínico, principalmente nas alterações de deglutição e voz. Além de atendimentos com Laserterapia, Auriculoterapia e Terapia CranioSacral. </p>
+
                         </div>
-                    </div>
+                       
+                    
                 </div>
             </div>
         </div>
     </div>
+	</div>
     <!-- /SKILLS -->
 
     <!-- SERVICES -->
@@ -140,7 +111,7 @@
         <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
             <div class="wesley_tm_first_style">
                 <div class="wesley_tm_main_title_holder">
-                    <h3>Nossos Serviços</h3>
+                    <h3>Cursos</h3>
                     <span>Laserterapia Clínica</span>
                 </div>
                 <div class="container">
@@ -154,7 +125,7 @@
                                         </div>
                                         <span>Laserterapia para Fonoaudiólogos</span>
                                         <p> Curso Básico</p>
-                                        <p>Carga Horária: 20 horas/aula (2 dias seguidos)</p>
+                                       
                                         <p>  Público Alvo: Fonoaudiólogos
                                         </p>
                                     </div>
@@ -169,7 +140,7 @@
                                         </div>
                                         <span>Laserterapia para Fonoaudiólogos</span>
                                         <p>Curso Intermediário.</p>
-                                        <p>Carga Horária: 30 horas/aula (3 dias seguidos) </P
+                                       
                                         <p>  Público Alvo: Fonoaudiólogos
                                         </p>
                                     </div>
@@ -186,9 +157,7 @@
                                         <p>
                                             Curso Completo.
                                         </p>
-                                        <p>
-                                            Carga Horária: 40horas/aula. (2 Módulos, 1 em cada mês)
-                                        </p>
+                                      
                                         <p>
                                           Público Alvo: Fonoaudiólogos.
 
@@ -204,9 +173,34 @@
                                         <div class="image">
                                                                                  </div>
                                         <span>Laserterapia Clínica</span>
-                                        <p>Carga Horária: 20 horas/aula (2 dias seguidos)</P
+                                       
                                         <p>  Público Alvo: Graduados nas áreas da Saúde.
 </p>
+                                    </div>
+                                    <div class="overlay_color"></div>
+                                </div>
+                            </li>
+							  <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeInUp; height: 334px;">
+                                <div class="inner">
+                                    <div class="detail_wrap">
+                                        <div class="image">
+                                                                                 </div>
+                                        <span>Auriculoterapia</span>
+                                       
+                                        <p>  Público Alvo: Graduados nas áreas da Saúde.
+</p>
+                                    </div>
+                                    <div class="overlay_color"></div>
+                                </div>
+                            </li>
+							  <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeInUp; height: 334px;">
+                                <div class="inner">
+                                    <div class="detail_wrap">
+                                        <div class="image">
+                                                                                 </div>
+                                        <span>Treinamento de Anatomia Palpatória para Fonoaudiólogos</span>
+                                       
+                                        <p>Fonoaudiólogos e estudantes de Fonoaudiologia</p>
                                     </div>
                                     <div class="overlay_color"></div>
                                 </div>
@@ -974,14 +968,22 @@
     </div>
     <!-- /NEWS -->
 
-    <!-- CONTACT -->
-    <div class="wesley_tm_section" id="contact">
-        <div class="wesley_tm_contact_wrap_all">
+  <div class="wesley_tm_section" id="contact">
+    <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
                 <span>Qualquer pergunta? entre em contato e eu responderei o mais breve possivel.</span>
             </div>
-            <div class="wesley_tm_contact_wrap">
+           
+        </div>
+        <div class="container">
+            <div class="wesley_tm_about_wrap">
+                <div class="author_wrap">
+                    <div class="leftbox" style="background: #fff; padding: 15px;">
+                        <div class="wesley_tm_main_title_holder about">
+                            <h3 style="color: orange">Envie sua mensagem</h3>
+                        </div>
+                            <div class="wesley_tm_contact_wrap">
                 <div class="main_input_wrap">
                     <form action="http://frenify.com/" method="post" class="contact_form" id="contact_form">
                         <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
@@ -1001,8 +1003,30 @@
                     </form>
                 </div>
             </div>
+                      
+                    </div>
+                    <div class="rightbox" style="min-height: 540px">
+                        <div class="wesley_tm_main_title_holder about">
+                            <h3 style="color: orange">Contatos</h3>
+                        </div>
+                       
+                        <div class="definition">
+						<p></p>
+						<p></p>
+                            <p>sb.laseresaude@gmail.com<p>
+                            <p>+55 91 987027815 (whatsapp)</p>
+
+                            <p>Agendamento de Consultas: +55 91 989708375</p>
+
+                          
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+  
     <!-- /CONTACT -->
 
     <!-- FOOTER -->
