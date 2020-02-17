@@ -84,8 +84,8 @@ HeadAsset::register($this);
 						<div class="menu">
 							<ul class="anchor_nav">
 								<li class="current"><a href="#home">Home</a></li>
-								<li class=""><a href="#sobre">Atuação</a></li>
 								<li class=""><a href="#about">Perfil</a></li>
+                                                                <li class=""><a href="#sobre">Atuação</a></li>
 									<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
 							
@@ -112,8 +112,8 @@ HeadAsset::register($this);
 					<li class="current"><a href="#home">Home</a></li>
 								<li class=""><a href="#sobre">Atuação</a></li>
 								<li class=""><a href="#about">Perfil</a></li>
-									<li class=""><a href="#cursos">Cursos</a></li>
-								<li class=""><a href="#services">Serviços</a></li>
+									<li class=""><a href="#services">Cursos</a></li>
+							<!--	<li class=""><a href="#services">Serviços</a></li> -->
 							
 								<li class=""><a href="#portfolio">Agenda</a></li>
 								<li class=""><a href="#testimonials">Depoimentos</a></li>

@@ -53,7 +53,7 @@
                         </div>
                         <div class="subtitle"><p>Fonoaudiólogo. CRFa 9-9318-5</p></div>
                         <div class="definition">
-                            <p>Chefe do Serviço de Fonoaudiologia do Hospital de Pronto Socorro Municipal Mário Pinotti – Belém-PA. 
+                            <p>- Chefe do Serviço de Fonoaudiologia do Hospital de Pronto Socorro Municipal Mário Pinotti – Belém-PA. 
 
                             <p>- Docente das Pós-graduações de Voz e Motricidade da Universidade São Caetano do Sul (Laserterapia).</p>
 
@@ -94,7 +94,7 @@
                  
                        
                         <div class="definition">
-                          <p style="font-size: 20px"> A Sávio Bastos Laser e Saúde (cor laranja) é uma empresa de Cursos e Consultoria para aprimoramento de profissionais da área da saúde, direcionada principalmente para formações em Fotobiomodulação e Fonoaudiologia. Também contempla atendimentos de Fonoaudiologia em âmbito hospitalar e clínico, principalmente nas alterações de deglutição e voz. Além de atendimentos com Laserterapia, Auriculoterapia e Terapia CranioSacral. </p>
+                            <p style="font-size: 20px"> A <span style="color: orange">Sávio Bastos Laser e Saúde</span> é uma empresa de Cursos e Consultoria para aprimoramento de profissionais da área da saúde, direcionada principalmente para formações em Fotobiomodulação e Fonoaudiologia. Também contempla atendimentos de Fonoaudiologia em âmbito hospitalar e clínico, principalmente nas alterações de deglutição e voz. Além de atendimentos com Laserterapia, Auriculoterapia e Terapia CranioSacral. </p>
 
                         </div>
                        
@@ -124,7 +124,7 @@
                                           
                                         </div>
                                         <span>Laserterapia para Fonoaudiólogos</span>
-                                        <p> Curso Básico</p>
+                                        <p style="font-style: italic"> Curso Básico</p>
                                        
                                         <p>  Público Alvo: Fonoaudiólogos
                                         </p>
@@ -139,7 +139,7 @@
                                            
                                         </div>
                                         <span>Laserterapia para Fonoaudiólogos</span>
-                                        <p>Curso Intermediário.</p>
+                                        <p style="font-style: italic">Curso Intermediário.</p>
                                        
                                         <p>  Público Alvo: Fonoaudiólogos
                                         </p>
@@ -154,7 +154,7 @@
                                        
                                         </div>
                                         <span>Capacitação em Laser para Fonoaudiólogos</span>
-                                        <p>
+                                        <p style="font-style: italic">
                                             Curso Completo.
                                         </p>
                                       
@@ -1014,9 +1014,9 @@
 						<p></p>
 						<p></p>
                             <p>sb.laseresaude@gmail.com<p>
-                            <p>+55 91 987027815 (whatsapp)</p>
+                            <p>+55 91 987027815 <img style="width: 33px;" src="https://www.jungnapratica.com.br/wp-content/uploads/2019/05/icon-whatsApp.png" /></p>
 
-                            <p>Agendamento de Consultas: +55 91 989708375</p>
+                            <p>+55 91 989708375 Agendamento de Consultas</p>
 
                           
                         </div>
