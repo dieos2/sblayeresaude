@@ -67,6 +67,7 @@ class AgendaController extends Controller
      */
     public function actionCreate()
     {
+        
         $model = new Agenda();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
