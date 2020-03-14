@@ -34,7 +34,7 @@ class Sobre extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['titulo', 'subtitulo', 'texto', 'foto', 'data', 'contato', 'id_user'], 'required'],
+            [['titulo', 'subtitulo', 'texto', 'foto', 'contato', 'id_user'], 'required'],
             [['texto'], 'string'],
             [['data'], 'safe'],
             [['id_user'], 'integer'],

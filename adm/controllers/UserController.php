@@ -35,25 +35,26 @@ class UserController extends Controller
    public function behaviors() {
 		return[ 
             
-            'access' => [
-    'class' => AccessControl::className(),
-    // We will override the default rule config with the new AccessRule class
-    'ruleConfig' => [
-        'class' => AccessRule::className(),
-    ],
-   
-    'rules' => [
-        [
-            
-            'allow' => true,
-            // Allow users, moderators and admins to create
-            'roles' => [
-                UserCadastro::ROLE_ADMIN
-            ],
-        ],
-       
-    ],
-], ];
+//            'access' => [
+//    'class' => AccessControl::className(),
+//    // We will override the default rule config with the new AccessRule class
+//    'ruleConfig' => [
+//        'class' => AccessRule::className(),
+//    ],
+//   
+//    'rules' => [
+//        [
+//            
+//            'allow' => true,
+//            // Allow users, moderators and admins to create
+//            'roles' => [
+//                UserCadastro::ROLE_ADMIN
+//            ],
+//        ],
+//       
+//    ],
+//], 
+];
             
             
 //            [ 'access' => [
