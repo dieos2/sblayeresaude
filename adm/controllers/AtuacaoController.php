@@ -3,44 +3,37 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Agenda;
+use app\models\Atuacao;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
 
 /**
- * AgendaController implements the CRUD actions for Agenda model.
+ * AtuacaoController implements the CRUD actions for Atuacao model.
  */
-class AgendaController extends Controller
+class AtuacaoController extends Controller
 {
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['index'],
-                'rules' => [
-                   
-                    [
-                        'actions' => ['index'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
                 ],
             ],
         ];
     }
 
     /**
-     * Lists all Agenda models.
+     * Lists all Atuacao models.
      * @return mixed
      */
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Agenda::find(),
+            'query' => Atuacao::find(),
         ]);
 
         return $this->render('index', [
@@ -49,7 +42,7 @@ class AgendaController extends Controller
     }
 
     /**
-     * Displays a single Agenda model.
+     * Displays a single Atuacao model.
      * @param integer $id
      * @return mixed
      */
@@ -61,14 +54,13 @@ class AgendaController extends Controller
     }
 
     /**
-     * Creates a new Agenda model.
+     * Creates a new Atuacao model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        
-        $model = new Agenda();
+        $model = new Atuacao();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -80,7 +72,7 @@ class AgendaController extends Controller
     }
 
     /**
-     * Updates an existing Agenda model.
+     * Updates an existing Atuacao model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -99,7 +91,7 @@ class AgendaController extends Controller
     }
 
     /**
-     * Deletes an existing Agenda model.
+     * Deletes an existing Atuacao model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -112,15 +104,15 @@ class AgendaController extends Controller
     }
 
     /**
-     * Finds the Agenda model based on its primary key value.
+     * Finds the Atuacao model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Agenda the loaded model
+     * @return Atuacao the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Agenda::findOne($id)) !== null) {
+        if (($model = Atuacao::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

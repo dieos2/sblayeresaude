@@ -10,10 +10,9 @@ use Yii;
  * @property integer $id
  * @property string $nome
  *
- * @property Agenda[] $agendas
+ * @property Curso[] $cursos
+ * @property Noticia[] $noticias
  * @property Servico[] $servicos
- * @property Noticia $id0
- * @property Testemunho[] $testemunhos
  */
 class Status extends \yii\db\ActiveRecord
 {
@@ -33,7 +32,6 @@ class Status extends \yii\db\ActiveRecord
         return [
             [['nome'], 'required'],
             [['nome'], 'string', 'max' => 30],
-            [['id'], 'exist', 'skipOnError' => true, 'targetClass' => Noticia::className(), 'targetAttribute' => ['id' => 'status']],
         ];
     }
 
@@ -51,9 +49,17 @@ class Status extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getAgendas()
+    public function getCursos()
     {
-        return $this->hasMany(Agenda::className(), ['status' => 'id']);
+        return $this->hasMany(Curso::className(), ['status' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getNoticias()
+    {
+        return $this->hasMany(Noticia::className(), ['status' => 'id']);
     }
 
     /**
@@ -62,21 +68,5 @@ class Status extends \yii\db\ActiveRecord
     public function getServicos()
     {
         return $this->hasMany(Servico::className(), ['status' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getId0()
-    {
-        return $this->hasOne(Noticia::className(), ['status' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getTestemunhos()
-    {
-        return $this->hasMany(Testemunho::className(), ['status' => 'id']);
     }
 }

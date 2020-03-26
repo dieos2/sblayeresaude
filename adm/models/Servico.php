@@ -13,6 +13,7 @@ use Yii;
  * @property integer $id_user
  * @property string $data
  * @property integer $status
+ * @property string $subtitulo
  *
  * @property User $idUser
  * @property Status $status0
@@ -33,11 +34,12 @@ class Servico extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['titulo', 'texto', 'id_user', 'data', 'status'], 'required'],
+            [['titulo', 'texto', 'id_user', 'status'], 'required'],
             [['texto'], 'string'],
             [['id_user', 'status'], 'integer'],
             [['data'], 'safe'],
             [['titulo'], 'string', 'max' => 300],
+            [['subtitulo'], 'string', 'max' => 50],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
             [['status'], 'exist', 'skipOnError' => true, 'targetClass' => Status::className(), 'targetAttribute' => ['status' => 'id']],
         ];
@@ -55,6 +57,7 @@ class Servico extends \yii\db\ActiveRecord
             'id_user' => 'Id User',
             'data' => 'Data',
             'status' => 'Status',
+            'subtitulo' => 'Subtitulo',
         ];
     }
 

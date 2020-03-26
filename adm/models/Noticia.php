@@ -36,13 +36,14 @@ class Noticia extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['titulo', 'id_user', 'data', 'status', 'texto'], 'required'],
+            [['titulo', 'id_user', 'status', 'texto'], 'required'],
             [['id_user', 'status'], 'integer'],
             [['data', 'data_pub'], 'safe'],
             [['texto'], 'string'],
             [['titulo', 'chamada'], 'string', 'max' => 300],
             [['foto'], 'string', 'max' => 50],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
+            [['status'], 'exist', 'skipOnError' => true, 'targetClass' => Status::className(), 'targetAttribute' => ['status' => 'id']],
         ];
     }
 

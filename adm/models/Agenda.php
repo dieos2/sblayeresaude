@@ -16,7 +16,6 @@ use Yii;
  * @property integer $status
  *
  * @property User $idUser
- * @property Status $status0
  */
 class Agenda extends \yii\db\ActiveRecord
 {
@@ -34,13 +33,12 @@ class Agenda extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['titulo', 'texto', 'data', 'id_user', 'data_pub', 'status'], 'required'],
+            [['titulo', 'texto', 'id_user', 'status'], 'required'],
             [['texto'], 'string'],
             [['data', 'data_pub'], 'safe'],
             [['id_user', 'status'], 'integer'],
             [['titulo'], 'string', 'max' => 300],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
-            [['status'], 'exist', 'skipOnError' => true, 'targetClass' => Status::className(), 'targetAttribute' => ['status' => 'id']],
         ];
     }
 
@@ -66,13 +64,5 @@ class Agenda extends \yii\db\ActiveRecord
     public function getIdUser()
     {
         return $this->hasOne(User::className(), ['id' => 'id_user']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getStatus0()
-    {
-        return $this->hasOne(Status::className(), ['id' => 'status']);
     }
 }

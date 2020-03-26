@@ -14,6 +14,7 @@ use Yii;
  * @property integer $sexo
  * @property string $data
  *
+ * @property Curso[] $cursos
  * @property User $id0
  */
 class Perfil extends \yii\db\ActiveRecord
@@ -32,8 +33,8 @@ class Perfil extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'nome', 'data'], 'required'],
-            [['id', 'sexo'], 'integer'],
+            [['nome', 'sobrenome'], 'required'],
+            [['sexo'], 'integer'],
             [['data'], 'safe'],
             [['nome', 'sobrenome'], 'string', 'max' => 50],
             [['foto'], 'string', 'max' => 40],
@@ -54,6 +55,14 @@ class Perfil extends \yii\db\ActiveRecord
             'sexo' => 'Sexo',
             'data' => 'Data',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getCursos()
+    {
+        return $this->hasMany(Curso::className(), ['id_user' => 'id']);
     }
 
     /**

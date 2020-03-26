@@ -14,6 +14,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'titulo')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'subtitulo')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'texto')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'data')->textInput() ?>
