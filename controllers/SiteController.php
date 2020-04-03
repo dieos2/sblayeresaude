@@ -66,8 +66,33 @@ class SiteController extends Controller {
     }
 
     public function actionIndex() {
-
-        return $this->render('index');
+        $sobre = \app\models\Sobre::find()
+   ->orderBy('Id')
+   ->one();
+        $atuacao = \app\models\Atuacao::find()
+   ->orderBy('Id')
+   ->one();
+        $cursos = \app\models\Curso::find()
+   ->orderBy('Id')
+   ->all();
+        $agendas = \app\models\Agenda::find()
+   ->orderBy('Id')
+   ->all();
+         $citacoes = \app\models\Citacao::find()
+   ->orderBy('Id')
+   ->all();
+            $noticias = \app\models\Noticia::find()
+   ->orderBy('Id')
+   ->all();
+  
+        return $this->render('index', [
+            'sobre' => $sobre,
+            'atuacao' => $atuacao,
+             'cursos' => $cursos,
+             'agendas' => $agendas,
+            'citacoes' => $citacoes,
+             'noticias' => $noticias
+        ]);
     }
 
     public function actionLogin() {
