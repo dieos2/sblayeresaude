@@ -347,16 +347,16 @@
                                 </div>
                                 <div class="definitions_wrap">
                                     <div class="date_wrap">
-                                        <p>January 22, 2018 <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html">Logos</a></p>
+                                       
                                     </div>
                                     <div class="title_holder">
-                                        <h3><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html">How to Create Great Logo for Your Business</a></h3>
+                                        <h3><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html"><?= $data->titulo?></a></h3>
                                     </div>
                                     <div class="definition">
-                                        <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have a couple ...</p>
+                                        <p><?= substr($data->texto, 0, 150);?></p>
                                     </div>
                                     <div class="full_def">
-                                        <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have a couple of questions running through your mind like: Do I really need that logo? Or Yep, I really need one. But how can I get it on a budget? This post was created to help you bring system out of confusion so you can get the best out of your business and enter the market full force. First of all, yes, you do need a logo, and it does not really matter how big or small your business is. Even if you  making a craft soap and sell it to your relatives and friends, you still need a logo. If you plan to monetize an idea, you need a logo for it. Otherwise your work, your efforts, your image and your future brand belong to everyone, like grapes at a grocery store. But most importantly, the final design you come up with should be effective enough to promote your business and get you that place in the sun. Here are a few tips that will make the whole process easier and more fun. The first step to a killer logo is an idea. So start feeding your brain with new impressions and experiences. Use anything that works for you. Try hiking and gain inspiration from nature. Or visit an art gallery. Meditation, photography, action sports In a nutshell, any kind of activity that fills you up with energy and joy may help you get that revolutionary idea. It is always useful to browse the websites (or social media profiles) of your potential rivals to not only judge their logos but to practice analysis. Do you find your competitor logo effective or attractive? Try to think of the ways it helps the rival company to be profitable. Is there something you would change? Why? All of these questions can really help you to improve your own perception of your brand as well as the future marketing strategy. Find out what the strengths and weaknesses of your rivals are and benefit from that knowledge. When it comes to logo design, there are and always will be several safe choices like bold and elegant black and white logos or serif font wordmarks. But if you are striving to get that killer logo, do not be afraid to cross the line and try something rebellious. Go out there and get to know the latest design trends. For example, you may experiment with the bold colors like Ultra Violet, which is the Pantone color of the year, by the way. Or play with the typography and color gradients.</p>
+                                        <p><?= $data->texto?></p>
                                     </div>
                                     <div class="wesley_tm_popup_share_wrap">
                                         <ul>
@@ -367,7 +367,7 @@
                                         </ul>
                                     </div>
                                     <div class="read_more">
-                                        <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><span>Read More</span></a>
+                                        <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><span>Ler Mais</span></a>
                                     </div>
                                 </div>
                             </div>

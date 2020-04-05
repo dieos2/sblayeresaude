@@ -156,7 +156,7 @@ HeadAsset::register($this);
                             <div class="image_holder logo">
                                 <img src="/SBlaser_files/logo.png" alt="">
                             </div>
-                            <p>Creative portfolio studio</p>
+                            <p>Savio Bastos</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeIn;">
                             <div class="image_holder">
@@ -164,7 +164,7 @@ HeadAsset::register($this);
                               
                                 </svg>
                             </div>
-                            <p>+77 (022) 177 05 05</p>
+                            <p>+55 91 987027815</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeIn;">
                             <div class="image_holder">
@@ -172,7 +172,7 @@ HeadAsset::register($this);
                                
                                 </svg>
                             </div>
-                            <p><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">example@gmail.com</a></p>
+                            <p><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">+55 91 989708375</a></p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;">
                             <div class="image_holder">
@@ -180,7 +180,7 @@ HeadAsset::register($this);
                               
                                 </svg>
                             </div>
-                            <p>123 Qwerty Avenue NYC, USA</p>
+                            <p>sb.laseresaude@gmail.com</p>
                         </li>
                     </ul>
                 </div>

@@ -25,14 +25,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
   <!-- Portfolio Item Heading -->
   <h1 class="my-4"><?= $model->titulo ?>
-      <small><?= $model->subtitulo ?></small>
+     
   </h1>
-
+  
   <!-- Portfolio Item Row -->
   <div class="row">
 
     <div class="col-md-8">
         <img class="img-fluid" src="/images/cursopadrao.fw.png" alt="">
+        
+       
     </div>
 
     <div class="col-md-4">
@@ -40,9 +42,10 @@ $this->params['breadcrumbs'][] = $this->title;
       <?= $model->texto ?>
       <h3 class="my-3">Detalhes</h3>
       <ul>
-        <li><?= $model->subtitulo?></li>
-        <li>Publico Alvo: <?= $model->publicoAlvo?></li>
-        <li>Carga Horária: <?= $model->cargahoraria?></li>
+          <li><span><strong>Objetivo:</strong>  <?= $model->objetivo ?></span></li>
+          <li><strong><?= $model->subtitulo?></strong></li>
+        <li><strong>Publico Alvo:</strong> <?= $model->publicoAlvo?></li>
+        <li><strong>Carga Horária:</strong> <?= $model->cargahoraria?></li>
         
       </ul>
     </div>
