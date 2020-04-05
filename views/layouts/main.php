@@ -79,12 +79,12 @@ HeadAsset::register($this);
 			<div class="container">
 				<div class="navigation_inner">
 					<div class="logo">
-						<a class="light_logo" href="#"><img width="118" src="/SBlaser_files/logo.png" alt=""></a>
+						<a class="light_logo" href="/"><img width="118" src="/SBlaser_files/logo.png" alt=""></a>
 					</div>
 					<div class="nav_list_wrap">
 						<div class="menu">
 							<ul class="anchor_nav">
-								<li class="current"><a href="#home">Home</a></li>
+								<li class="current"><a href="/">Home</a></li>
 								<li class=""><a href="#about">Perfil</a></li>
                                                                 <li class=""><a href="#sobre">Atuação</a></li>
 									<li class=""><a href="#cursos">Cursos</a></li>
