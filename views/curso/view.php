@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="row">
 
     <div class="col-md-8">
-      <img class="img-fluid" src="https://www.uva.br/sites/default/files/styles/news_detail_slider/public/blog-reconocimiento-voz.png?itok=fWiwR3a-" alt="">
+        <img class="img-fluid" src="/images/cursopadrao.fw.png" alt="">
     </div>
 
     <div class="col-md-4">
