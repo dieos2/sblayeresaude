@@ -137,7 +137,8 @@
         <div class="wesley_tm_counter_wrap_all">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
-                    <div class="overlay_image counter jarallax" data-speed="0" data-jarallax-original-styles="null" style="background-image: none; background-attachment: scroll; background-size: auto;"><div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(&quot;http://frenify.com/envato/marketify/html/wesley/1//img/hero/1.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1349px; height: 735.627px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -79.3133px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+                    <div class="overlay_image counter jarallax" data-speed="0" data-jarallax-original-styles="null" style="background-image: none; background-attachment: scroll; background-size: auto;"><div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
+                            <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 735.627px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -79.3133px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
                     <div class="overlay_color counter"></div>
                 </div>
                 <div class="content counter">
@@ -288,7 +289,8 @@
         <div class="wesley_tm_testimonials_wrapper_all">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
-                    <div class="overlay_image testimonial jarallax" data-speed="0" data-jarallax-original-styles="null" style="background-image: none; background-attachment: scroll; background-size: auto;"><div id="jarallax-container-2" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(&quot;http://frenify.com/envato/marketify/html/wesley/1//img/hero/3.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1349px; height: 990.166px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -206.583px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+                    <div class="overlay_image testimonial jarallax" data-speed="0" data-jarallax-original-styles="null" style="background-image: none; background-attachment: scroll; background-size: auto;">
+                        <div id="jarallax-container-2" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 990.166px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -206.583px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
                     <div class="overlay_color testimonial"></div>
                 </div>
                 <div class="content testimonial">
