@@ -17,31 +17,30 @@ $this->params['breadcrumbs'][] = $this->title;
        <div class="container">
 
   <!-- Portfolio Item Heading -->
-  <h1 class="my-4"><?= $model->titulo ?>
-     
+  <h1 style="color: orange" class="my-4"><?= $model->titulo ?>
+      
   </h1>
-  
+  <h3 style="    margin-top: 10px;font-style: italic"> <strong><?= $model->subtitulo?></strong></h3>
   <!-- Portfolio Item Row -->
   <div class="row">
-
-    <div class="col-md-8">
+ <div class="col-md-8">
+     
+      <p> <span><strong>Objetivo:</strong> </span> <span><?= $model->objetivo ?></span></p>
+         
+      <p>  <strong>Publico Alvo:</strong> <?= $model->publicoAlvo?></p>
+      <p>  <strong>Carga Horária:</strong> <?= $model->cargahoraria?></p>
+        
+      
+       <h3 class="my-3">Programa</h3>
+      <?= $model->texto ?>
+    </div>
+    <div class="col-md-4">
         <img class="img-fluid" src="/images/cursopadrao.fw.png" alt="">
         
        
     </div>
 
-    <div class="col-md-4">
-      <h3 class="my-3">Programa</h3>
-      <?= $model->texto ?>
-      <h3 class="my-3">Detalhes</h3>
-      <ul>
-          <li><span><strong>Objetivo:</strong>  <?= $model->objetivo ?></span></li>
-          <li><strong><?= $model->subtitulo?></strong></li>
-        <li><strong>Publico Alvo:</strong> <?= $model->publicoAlvo?></li>
-        <li><strong>Carga Horária:</strong> <?= $model->cargahoraria?></li>
-        
-      </ul>
-    </div>
+   
 
   </div>
   <!-- /.row -->
