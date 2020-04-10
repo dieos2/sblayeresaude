@@ -51,7 +51,14 @@ HeadAsset::register($this);
    clip: rect(0 1349px 272px 0);
    clip: rect(0, 1349px, 272px, 0);
 }</style></head>
-
+<style>
+    .wesley_tm_header{
+        background: #ffffff !important;
+    }
+    .wesley_tm_navigation_wrap .menu > ul > li a{
+        color: #000;
+    }
+</style>
 <body>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v6.0&appId=619256671445990&autoLogAppEvents=1"></script>
@@ -85,12 +92,13 @@ HeadAsset::register($this);
 						<div class="menu">
 							<ul class="anchor_nav">
 								<li class="current"><a href="/">Home</a></li>
-								<li class=""><a href="#about">Perfil</a></li>
+								<li class=""><a href="#sore">Sobre</a></li>
+                                                                <li class=""><a href="#about">Perfil</a></li>
                                                                 <li class=""><a href="#sobre">Atuação</a></li>
 									<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
 							
-								<li class=""><a href="#portfolio">Agenda</a></li>
+								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
 								<li class=""><a href="#testimonials">Depoimentos</a></li>
 								<li class=""><a href="#news">Notícias</a></li>
 								<li class=""><a href="#contact">Contatos</a></li>
@@ -112,11 +120,12 @@ HeadAsset::register($this);
 				<ul class="anchor_nav">
 					<li class="current"><a href="#home">Home</a></li>
 								<li class=""><a href="#sobre">Atuação</a></li>
+                                                                <li class=""><a href="#sobre">Sobre</a></li>
 								<li class=""><a href="#about">Perfil</a></li>
-									<li class=""><a href="#services">Cursos</a></li>
-							<!--	<li class=""><a href="#services">Serviços</a></li> -->
+									<li class=""><a href="#cursos">Cursos</a></li>
+								<li class=""><a href="#services">Serviços</a></li>
 							
-								<li class=""><a href="#portfolio">Agenda</a></li>
+<!--								<li class=""><a href="#portfolio">Agenda</a></li>-->
 								<li class=""><a href="#testimonials">Depoimentos</a></li>
 								<li class=""><a href="#news">Notícias</a></li>
 								<li class=""><a href="#contact">Contatos</a></li>
@@ -214,6 +223,7 @@ HeadAsset::register($this);
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="/SBlaser_files/plugins.js.download"></script>
 <script src="/SBlaser_files/init.js.download"></script>
+
 <!-- /SCRIPTS -->
 
 

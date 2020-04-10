@@ -10,14 +10,7 @@ $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Cursos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<style>
-    .wesley_tm_header{
-        background: #ffffff !important;
-    }
-    .wesley_tm_navigation_wrap .menu > ul > li a{
-        color: #000;
-    }
-</style>
+
 <div class="wesley_tm_section" id="home" style="margin-top: 100px; background: #ffffff;">
         <div class="wesley_tm_hero_header">
             <div class="wesley_tm_universal_box_wrap">

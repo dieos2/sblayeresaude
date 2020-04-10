@@ -75,6 +75,9 @@ class SiteController extends Controller {
         $cursos = \app\models\Curso::find()
    ->orderBy('Id')
    ->all();
+        $servicos = \app\models\Servico::find()
+   ->orderBy('Id')
+   ->all();
         $agendas = \app\models\Agenda::find()
    ->orderBy('Id')
    ->all();
@@ -91,7 +94,8 @@ class SiteController extends Controller {
              'cursos' => $cursos,
              'agendas' => $agendas,
             'citacoes' => $citacoes,
-             'noticias' => $noticias
+             'noticias' => $noticias,
+            'servicos' => $servicos
         ]);
     }
 

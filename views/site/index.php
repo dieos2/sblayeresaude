@@ -38,12 +38,12 @@
     <!-- /HERO -->
 
     <!-- ABOUT -->
-    <div class="wesley_tm_section" id="about">
+    <div class="wesley_tm_section" >
         <div class="container">
             <div class="wesley_tm_about_wrap">
                 <div class="author_wrap">
                     <div class="leftbox">
-                        <div class="image_wrap">
+                        <div class="image_wrap"id="about">
                             <img src="<?= $sobre->foto ?>" alt="">
                         </div>
                     </div>
@@ -92,16 +92,16 @@
     <!-- /SKILLS -->
 
     <!-- SERVICES -->
-    <div class="wesley_tm_section" id="services">
+    <div class="wesley_tm_section" >
         <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
             <div class="wesley_tm_first_style">
                 <div class="wesley_tm_main_title_holder">
                     <h3>Cursos</h3>
                     <span>Laserterapia Clínica</span>
                 </div>
-                <div class="container">
+                <div class="container"id="cursos">
                     <div class="wesley_tm_services_wrap">
-                        <ul class="wesley_tm_miniboxes">
+                        <ul class="wesley_tm_miniboxes" >
                            <?php
                 foreach ($cursos as $data) {?>
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
@@ -131,7 +131,46 @@
         </div>
     </div>
     <!-- /SERVICES -->
+   <!-- SERVICES -->
+    <div class="wesley_tm_section" >
+        <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
+            <div class="wesley_tm_first_style">
+                <div class="wesley_tm_main_title_holder">
+                    <h3>Serviços</h3>
+                    
+                </div>
+                <div class="container" id="services">
+                    <div class="wesley_tm_services_wrap">
+                        <ul class="wesley_tm_miniboxes" >
+                           <?php
+                foreach ($servicos as $data) {?>
+                            <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
+                                <a href="/servico/view?id=<?= $data->id?>"><div class="inner">
+                                    <div class="detail_wrap">
+                                        <div class="image">
+                                          
+                                        </div>
+                                        <span><?= $data->titulo  ?></span>
+                                        
+                                       
+                                       
+                                        </p>
+                                    </div>
+                                    <div class="overlay_color"></div>
+                                </div>
+                                    </a>
+                            </li>
+                <?php }?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+          
+
+        </div>
+    </div>
+    <!-- /SERVICES -->
     <!-- COUNTER -->
     <div class="wesley_tm_section">
         <div class="wesley_tm_counter_wrap_all">
@@ -210,75 +249,7 @@
                 </div>
             </div>
 
-            <!-- PORTFOLIO FILTER -->
-            <div class="wesley_tm_second_portfolio">
-                <div class="container">
-                    <div class="wesley_tm_portfolio_wrap">
-                        <div class="wesley_tm_main_title_holder portfolio">
-                            <h3>Awesome Works</h3>
-                            <span>Meet our awesome works</span>
-                        </div>
-                        <div class="wesley_tm_portfolio_titles"></div>
-                        <ul class="wesley_tm_portfolio_filter">
-                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#" class="current" data-filter="*">All</a></li>
-                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#" data-filter=".design">Design</a></li>
-                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#" data-filter=".photography">Photography</a></li>
-                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#" data-filter=".development">Development</a></li>
-                        </ul>
-                        <ul class="wesley_tm_portfolio_list gallery_zoom">
-                            <li class="design">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Aoc Productions" data-category="Design">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/1.jpg#">
-                                        <img src="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/1.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="photography">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Ind Hed" data-category="Photography">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/2.jpg#">
-                                        <img src="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/2.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="development">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Paper Mockup" data-category="Development">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/3.jpg#">
-                                        <img src="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/3.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="photography">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="The Nordic" data-category="Photography">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/4.jpg#">
-                                        <img src="./SBlaser_files/600x600.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="design">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="Creatives Castle" data-category="Design">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/5.jpg#">
-                                        <img src="./SBlaser_files/600x600.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="photography">
-                                <div class="entry wesley_tm_portfolio_animation_wrap" data-title="White Bag" data-category="Photography">
-                                    <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/6.jpg#">
-                                        <img src="./SBlaser_files/600x600.jpg" alt="">
-                                        <div class="wesley_tm_portfolio_image_main"></div>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- /PORTFOLIO FILTER -->
+           
 
         </div>
     </div>
@@ -384,7 +355,7 @@
     </div>
     <!-- /NEWS -->
 
-  <div class="wesley_tm_section" id="contact">
+  <div class="wesley_tm_section" >
     <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
@@ -394,10 +365,10 @@
         </div>
         <div class="container">
             <div class="wesley_tm_about_wrap">
-                <div class="author_wrap">
-                    <div class="leftbox" style="background: #fff; padding: 15px;">
+                <div class="author_wrap" style="width: 100% !important">
+                    <div class="leftbox" style="width: 80%; background: #fff; padding: 15px;">
                         <div class="wesley_tm_main_title_holder about">
-                            <h3 style="color: orange">Envie sua mensagem</h3>
+                            <h3 id="contact" style="color: orange">Envie sua mensagem</h3>
                         </div>
                             <div class="wesley_tm_contact_wrap">
                 <div class="main_input_wrap">
