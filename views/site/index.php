@@ -14,7 +14,7 @@
                     <div class="overlay_color hero"></div>
                 </div>
               
-            </div>
+            </div> 
         </div>
     </div>
     <!-- /HERO -->
