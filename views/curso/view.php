@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
        <p style="font-style: italic; font-size: 11px ">Observação: pode haver discreta variação de conteúdo programático ou carga horária de acordo com a necessidade do local de realização do curso.</p>
     </div>
     <div class="col-md-4">
-        <img class="img-fluid" src="/images/cursopadrao.fw.png" alt="">
+        <img class="img-fluid" src="http://admin.sbsaude.local/images/uploads/<?= $model->foto?>" alt="">
         
        
     </div>
