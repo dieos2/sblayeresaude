@@ -8,30 +8,12 @@
                 <div class="bg_wrap">
                     <div class="overlay_image hero jarallax" data-speed="0" data-jarallax-original-styles="null" 
                          style="background-image: none; background-attachment: scroll; background-size: auto;">
-                        <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(/images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 1011.75px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -217.375px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+                        <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
+                            <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(/images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 1011.75px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -217.375px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
                     <div class="overlay_video"></div>
                     <div class="overlay_color hero"></div>
                 </div>
-                <div class="content hero">
-                    <div class="container hero">
-                        <div class="wesley_tm_hero_title" style="opacity: 1; margin-top: 0px;">
-                            <h5>procurando um Fono...?</h5>
-                            <p class="name">Aqui estou <span>Sávio</span></p>
-                            <div class="wesley_tm_hero_share">
-                                <ul>
-                                    <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-facebook"></i></a></li>
-                                    <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-twitter"></i></a></li>
-                                    <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-linkedin"></i></a></li>
-                                    <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-instagram"></i></a></li>
-                                    <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="wesley_tm_arrow_wrap bounce anchor">
-                            <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#about"><i class="xcon-angle-double-down"></i></a>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
         </div>
     </div>
