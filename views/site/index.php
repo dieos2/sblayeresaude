@@ -2,7 +2,7 @@
 
 
     <!-- HERO -->
-    <div class="wesley_tm_section" id="home">
+<!--    <div class="wesley_tm_section" id="home">
         <div class="wesley_tm_hero_header">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
@@ -16,7 +16,7 @@
               
             </div> 
         </div>
-    </div>
+    </div>-->
     <!-- /HERO -->
 
     <!-- ABOUT -->
@@ -79,7 +79,7 @@
             <div class="wesley_tm_first_style">
                 <div class="wesley_tm_main_title_holder">
                     <h3>Cursos</h3>
-                    <span>Laserterapia Clínica</span>
+                    
                 </div>
                 <div class="container"id="cursos">
                     <div class="wesley_tm_services_wrap">
@@ -155,7 +155,7 @@
     </div>
     <!-- /SERVICES -->
     <!-- COUNTER -->
-    <div class="wesley_tm_section">
+<!--    <div class="wesley_tm_section">
         <div class="wesley_tm_counter_wrap_all">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
@@ -197,11 +197,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /COUNTER -->
 
     <!-- PORTFOLIO -->
-    <div class="wesley_tm_section" id="portfolio">
+<!--    <div class="wesley_tm_section" id="portfolio">
         <div class="wesley_tm_portfolio_wrapper_all" data-portfolio-style="default">
             <div class="wesley_tm_first_portfolio">
                 <div class="wesley_tm_main_title_holder portfolio">
@@ -235,11 +235,11 @@
            
 
         </div>
-    </div>
+    </div>-->
     <!-- /PORTFOLIO -->
 
     <!-- TESTIMONIALS -->
-    <div class="wesley_tm_section" id="testimonials">
+<!--    <div class="wesley_tm_section" id="testimonials">
         <div class="wesley_tm_testimonials_wrapper_all">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
@@ -281,11 +281,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /TESTIMONIALS -->
 
     <!-- NEWS -->
-    <div class="wesley_tm_section" id="news">
+<!--    <div class="wesley_tm_section" id="news">
         <div class="wesley_tm_news_wrap">
             <div class="container">
                 <div class="wesley_tm_main_title_holder news">
@@ -335,10 +335,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /NEWS -->
 
-  <div class="wesley_tm_section" >
+<!--  <div class="wesley_tm_section" >
     <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
@@ -406,7 +406,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
   
     <!-- /CONTACT -->
 

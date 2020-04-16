@@ -92,16 +92,16 @@ HeadAsset::register($this);
 						<div class="menu">
 							<ul class="anchor_nav">
 								<li class="current"><a href="/">Home</a></li>
-								<li class=""><a href="#sore">Sobre</a></li>
+								<!--<li class=""><a href="#sore">Sobre</a></li>-->
                                                                 <li class=""><a href="#about">Perfil</a></li>
                                                                 <li class=""><a href="#sobre">Atuação</a></li>
-									<li class=""><a href="#cursos">Cursos</a></li>
+								<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
 							
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
-								<li class=""><a href="#testimonials">Depoimentos</a></li>
+<!--								<li class=""><a href="#testimonials">Depoimentos</a></li>
 								<li class=""><a href="#news">Notícias</a></li>
-								<li class=""><a href="#contact">Contatos</a></li>
+								<li class=""><a href="#contact">Contatos</a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -156,8 +156,8 @@ HeadAsset::register($this);
 
 
   <!-- FOOTER -->
-    <div class="wesley_tm_footer_total_wrap">
-        <div class="wesley_tm_address_holder_wrap">
+  <div class="wesley_tm_footer_total_wrap" >
+      <div class="wesley_tm_address_holder_wrap" style="background-color: #fff !important;">
             <div class="container">
                 <div class="inner_wrap">
                     <ul>
@@ -165,31 +165,19 @@ HeadAsset::register($this);
                             <div class="image_holder logo">
                                 <img src="/SBlaser_files/logo.png" alt="">
                             </div>
-                            <p>Savio Bastos</p>
+                           
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="image_holder">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480.56 480.56" style="enable-background:new 0 0 480.56 480.56;" xml:space="preserve" class="svg replaced-svg">
-                              
-                                </svg>
-                            </div>
-                            <p>+55 91 987027815</p>
+                           
+                            <p style="color: #000;">+55 91 987027815</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeIn;">
-                            <div class="image_holder">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="511.626px" height="511.626px" viewBox="0 0 511.626 511.626" style="enable-background:new 0 0 511.626 511.626;" xml:space="preserve" class="svg replaced-svg">
-                               
-                                </svg>
-                            </div>
-                            <p><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">+55 91 989708375</a></p>
+                         
+                            <p style="color: #000;">Trav. Enéas Pinhiero 2738 - Sala 2, Belém-PA. 66095-015.</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;">
-                            <div class="image_holder">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="svg replaced-svg">
-                              
-                                </svg>
-                            </div>
-                            <p>sb.laseresaude@gmail.com</p>
+                           
+                            <p style="color: #000;">sb.laseresaude@gmail.com</p>
                         </li>
                     </ul>
                 </div>
