@@ -129,8 +129,9 @@
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
                                 <a href="/servico/view?id=<?= $data->id?>"><div class="inner">
                                     <div class="detail_wrap">
-                                        <div class="image">
-                                          
+                                        <div class="image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                            
+                                        </div>
                                         </div>
                                         <span><?= $data->titulo  ?></span>
                                         
