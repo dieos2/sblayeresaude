@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
        <h3 class="my-3">Programa</h3>
       <?= $model->texto ?>
        
-       <p style="font-style: italic; font-size: 11px ">Observação: pode haver discreta variação de conteúdo programático ou carga horária de acordo com a necessidade do local de realização do curso.</p>
+       <p style="font-style: italic; font-size: 10px ">Observação: pode haver discreta variação de conteúdo programático ou carga horária de acordo com a necessidade do local de realização do curso.</p>
     </div>
     <div class="col-md-4">
         <img class="img-fluid" src="http://admin.sblaseresaude.com.br/images/uploads/<?= $model->foto?>" alt="">
