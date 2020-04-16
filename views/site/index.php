@@ -132,7 +132,7 @@
                                         <div class="image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
                                             
                                         </div>
-                                        </div>
+                                      
                                         <span><?= $data->titulo  ?></span>
                                         
                                        
