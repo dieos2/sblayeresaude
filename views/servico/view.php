@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <h3 style="    margin-top: 10px;font-style: italic"> <strong><?= $model->subtitulo?></strong></h3>
   <!-- Portfolio Item Row -->
   <div class="row">
- <div class="col-md-8">
+      <div class="col-md-8" style="text-align: justify;">
      
       <?= $model->texto ?>
        
