@@ -1,25 +1,49 @@
-
-
-
     <!-- HERO -->
-<!--    <div class="wesley_tm_section" id="home">
+    <div class="wesley_tm_section" id="home">
         <div class="wesley_tm_hero_header">
             <div class="wesley_tm_universal_box_wrap">
                 <div class="bg_wrap">
                     <div class="overlay_image hero jarallax" data-speed="0" data-jarallax-original-styles="null" 
                          style="background-image: none; background-attachment: scroll; background-size: auto;">
                         <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
-                            <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(/images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 1011.75px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -217.375px; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+                            <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(/images/fundosite.png); position: fixed; top: 0px; left: 0px; width: 1349px; height: 1011.75px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -217.375px; visibility: visible; transform: translate3d(0px, 0px, 0px);">
+                                
+                            </div></div></div>
                     <div class="overlay_video"></div>
                     <div class="overlay_color hero"></div>
                 </div>
               
             </div> 
         </div>
-    </div>-->
+    </div>
     <!-- /HERO -->
 
     <!-- ABOUT -->
+    <div class="wesley_tm_section" >
+        <div class="container">
+            <div class="wesley_tm_about_wrap">
+                <div class="author_wrap">
+                    <div class="leftbox">
+                        <div class="image_wrap"id="about">
+                           
+                        </div>
+                    </div>
+                    <div class="rightbox">
+                        <div class="wesley_tm_main_title_holder about">
+                            <h3 style="color: orange"><?= $sobre->titulo ?></h3>
+                        </div>
+                        <div class="subtitle"><p><?= $sobre->subtitulo ?></p></div>
+                        <div class="definition" style="min-height: 300px ">
+                          
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ABOUT -->
+  <!-- ABOUT -->
     <div class="wesley_tm_section" >
         <div class="container">
             <div class="wesley_tm_about_wrap">
@@ -44,7 +68,6 @@
         </div>
     </div>
     <!-- /ABOUT -->
-
     <!-- SKILLS -->
     <div class="wesley_tm_section"  id="sobre">
 	<div class="wesley_tm_first_style">
