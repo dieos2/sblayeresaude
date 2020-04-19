@@ -1,4 +1,9 @@
-    <!-- HERO -->
+<style>
+    div#curso1,div#curso2, div#curso3,div#curso4,div#curso5,div#curso6  {
+        background-position: 0px -25px;
+    }
+</style>  
+<!-- HERO -->
     <div class="wesley_tm_section" id="home">
         <div class="wesley_tm_hero_header">
             <div class="wesley_tm_universal_box_wrap">
@@ -113,7 +118,7 @@
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
                                 <a href="/curso/view?id=<?= $data->id?>"><div class="inner">
                                     <div class="detail_wrap">
-                                        <div class="image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
                                             
                                         </div>
                                         <span><?= $data->titulo  ?></span>
