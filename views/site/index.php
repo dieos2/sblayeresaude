@@ -24,7 +24,7 @@
             <div class="wesley_tm_about_wrap">
                 <div class="author_wrap">
                     <div class="leftbox">
-                        <div class="image_wrap"id="about">
+                        <div class="image_wrap">
                            
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <h3 style="color: orange"><?= $sobre->titulo ?></h3>
                         </div>
                         <div class="subtitle"><p><?= $sobre->subtitulo ?></p></div>
-                        <div class="definition" style="min-height: 300px ">
+                        <div class="definition" style="min-height: 400px " >
                           
                         </div>
                        
@@ -43,35 +43,11 @@
         </div>
     </div>
     <!-- /ABOUT -->
-  <!-- ABOUT -->
-    <div class="wesley_tm_section" >
-        <div class="container">
-            <div class="wesley_tm_about_wrap">
-                <div class="author_wrap">
-                    <div class="leftbox">
-                        <div class="image_wrap"id="about">
-                            <img src="<?= $sobre->foto ?>" alt="">
-                        </div>
-                    </div>
-                    <div class="rightbox">
-                        <div class="wesley_tm_main_title_holder about">
-                            <h3 style="color: orange"><?= $sobre->titulo ?></h3>
-                        </div>
-                        <div class="subtitle"><p><?= $sobre->subtitulo ?></p></div>
-                        <div class="definition">
-                            <?= $sobre->texto ?>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /ABOUT -->
-    <!-- SKILLS -->
-    <div class="wesley_tm_section"  id="sobre">
+     <!-- SKILLS -->
+     <div ></div>
+    <div class="wesley_tm_section" id="atuacao"  >
 	<div class="wesley_tm_first_style">
-                <div class="wesley_tm_main_title_holder">
+                <div class="wesley_tm_main_title_holder" >
                     <h3>Atuação</h3>
                   
                 </div>
@@ -95,16 +71,41 @@
     </div>
 	</div>
     <!-- /SKILLS -->
-
-    <!-- SERVICES -->
+  <!-- ABOUT -->
     <div class="wesley_tm_section" >
+        <div class="container">
+            <div class="wesley_tm_about_wrap" id="about">
+                <div class="author_wrap">
+                    <div class="leftbox">
+                        <div class="image_wrap">
+                            <img src="<?= $sobre->foto ?>" alt="">
+                        </div>
+                    </div>
+                    <div class="rightbox">
+                        <div class="wesley_tm_main_title_holder about">
+                            <h3 style="color: orange"><?= $sobre->titulo ?></h3>
+                        </div>
+                        <div class="subtitle"><p><?= $sobre->subtitulo ?></p></div>
+                        <div class="definition">
+                            <?= $sobre->texto ?>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ABOUT -->
+    
+      <!-- SERVICES -->
+    <div class="wesley_tm_section" id="cursos">
         <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
             <div class="wesley_tm_first_style">
-                <div class="wesley_tm_main_title_holder">
+                <div class="wesley_tm_main_title_holder" >
                     <h3>Cursos</h3>
                     
                 </div>
-                <div class="container"id="cursos">
+                <div class="container">
                     <div class="wesley_tm_services_wrap">
                         <ul class="wesley_tm_miniboxes" >
                            <?php
@@ -136,15 +137,18 @@
         </div>
     </div>
     <!-- /SERVICES -->
+   
+
+  
    <!-- SERVICES -->
-    <div class="wesley_tm_section" >
+    <div class="wesley_tm_section" id="services">
         <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
             <div class="wesley_tm_first_style">
-                <div class="wesley_tm_main_title_holder">
+                <div class="wesley_tm_main_title_holder" >
                     <h3>Serviços</h3>
                     
                 </div>
-                <div class="container" id="services">
+                <div class="container" >
                     <div class="wesley_tm_services_wrap">
                         <ul class="wesley_tm_miniboxes" >
                            <?php

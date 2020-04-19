@@ -38,7 +38,7 @@ HeadAsset::register($this);
 <link href="/SBlaser_files/css(1)" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/plugins.css">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
 
@@ -94,12 +94,13 @@ HeadAsset::register($this);
 							<ul class="anchor_nav">
 								<li class="current"><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
+                                                                 <li class=""><a href="#atuacao">Atuação</a></li>
                                                                 <li class=""><a href="#about">Perfil</a></li>
-                                                                <li class=""><a href="#sobre">Atuação</a></li>
+                                                               
 								<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
-                                                                <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/twitter.png"/></a></li>
+                                                                
                                                                 <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
 <!--								<li class=""><a href="#testimonials">Depoimentos</a></li>
@@ -123,16 +124,19 @@ HeadAsset::register($this);
 				<ul class="anchor_nav">
 					<li class="current"><a href="#home">Home</a></li>
 								
-                                                                <!--<li class=""><a href="#sobre">Sobre</a></li>-->
-								<li class=""><a href="#about">Perfil</a></li>
-                                                                <li class=""><a href="#sobre">Atuação</a></li>
-									<li class=""><a href="#cursos">Cursos</a></li>
+                                                              <li class="current"><a href="/">Home</a></li>
+								<!--<li class=""><a href="#sore">Sobre</a></li>-->
+                                                                <li class=""><a href="#atuacao">Atuação</a></li>
+                                                                <li class=""><a href="#about">Perfil</a></li>
+                                                                <li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
-							
-<!--								<li class=""><a href="#portfolio">Agenda</a></li>-->
-								<!--<li class=""><a href="#testimonials">Depoimentos</a></li>-->
-								<!--<li class=""><a href="#news">Notícias</a></li>-->
-								<!--<li class=""><a href="#contact">Contatos</a></li>-->
+                                                                <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
+                                                                
+                                                                <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
+								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
+<!--								<li class=""><a href="#testimonials">Depoimentos</a></li>
+								<li class=""><a href="#news">Notícias</a></li>
+								<li class=""><a href="#contact">Contatos</a></li>-->
 				</ul>
 			</div>
 		</div>
@@ -211,10 +215,10 @@ HeadAsset::register($this);
 <!-- / WRAPPER ALL -->
 	
 <!-- SCRIPTS -->
-<!--<script src="/SBlaser_files/jquery.js.download"></script>
-[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]	
+<script src="/SBlaser_files/jquery.js.download"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="/SBlaser_files/plugins.js.download"></script>
-<script src="/SBlaser_files/init.js.download"></script>-->
+<script src="/SBlaser_files/init.js.download"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
