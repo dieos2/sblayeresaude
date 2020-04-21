@@ -24,7 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Portfolio Item Row -->
   <div class="row">
       <div class="col-md-8" style="text-align: justify;">
-     
+          <p></p>
+          <p></p>
       <?= $model->texto ?>
        
            </div>
