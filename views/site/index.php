@@ -378,7 +378,7 @@ $isMobile = true;
     </div>-->
     <!-- /NEWS -->
 
-<!--  <div class="wesley_tm_section" >
+  <div class="wesley_tm_section" >
     <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
@@ -387,11 +387,11 @@ $isMobile = true;
            
         </div>
         <div class="container">
-            <div class="wesley_tm_about_wrap">
+            <div class="wesley_tm_about_wrap" id="contact">
                 <div class="author_wrap" style="width: 100% !important">
                     <div class="leftbox" style="width: 80%; background: #fff; padding: 15px;">
                         <div class="wesley_tm_main_title_holder about">
-                            <h3 id="contact" style="color: orange">Envie sua mensagem</h3>
+                            <h3  style="color: orange">Envie sua mensagem</h3>
                         </div>
                             <div class="wesley_tm_contact_wrap">
                 <div class="main_input_wrap">
@@ -415,7 +415,7 @@ $isMobile = true;
             </div>
                       
                     </div>
-                    <div class="rightbox" style="min-height: 540px">
+<!--                    <div class="rightbox" style="min-height: 540px">
                         <div class="wesley_tm_main_title_holder about">
                             <h3 style="color: orange">Contatos</h3>
                         </div>
@@ -431,7 +431,7 @@ $isMobile = true;
                           
                         </div>
                        
-                    </div> 
+                    </div> -->
                     <div class="rightbox" style="min-height: 540px">
                         <div class="wesley_tm_main_title_holder about">
                             <h3 style="color: orange">Facebook</h3>
@@ -446,7 +446,7 @@ $isMobile = true;
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
   
     <!-- /CONTACT -->
 

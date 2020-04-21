@@ -108,6 +108,7 @@ HeadAsset::register($this);
 								<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
                                                                 <li class=""><a href="#testimonials">Depoimentos</a></li>
+                                                                <li class=""><a href="#contact">Contato</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
@@ -140,6 +141,7 @@ HeadAsset::register($this);
                                                                 <li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
                                                                 <li class=""><a href="#testimonials">Depoimentos</a></li>
+                                                                <li class=""><a href="#contact">Contato</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
@@ -229,10 +231,7 @@ HeadAsset::register($this);
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="/SBlaser_files/plugins.js.download"></script>
 <script src="/SBlaser_files/init.js.download"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<!-- /SCRIPTS -->
+
 
 
 <div id="ascrail2000" class="nicescroll-rails" style="width: 0px; z-index: 99999999; cursor: default; position: absolute; top: 50px; left: 1259.5px; height: 526px; display: none;">
