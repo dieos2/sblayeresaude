@@ -33,7 +33,8 @@ $this->params['breadcrumbs'][] = $this->title;
       
        <h3 class="my-3">Programa</h3>
       <?= $model->texto ?>
-       
+       <p></p>
+       <p></p>
        <p style="font-style: italic; font-size: 10px ">Observação: pode haver discreta variação de conteúdo programático ou carga horária de acordo com a necessidade do local de realização do curso.</p>
     </div>
     <div class="col-md-4">

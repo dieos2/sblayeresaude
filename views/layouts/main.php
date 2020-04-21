@@ -43,12 +43,10 @@ HeadAsset::register($this);
 
 <title>SB Laser e Saúde</title>
 
-<!-- STYLES -->
 <link href="/SBlaser_files/css" rel="stylesheet">
 <link href="/SBlaser_files/css(1)" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/plugins.css">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css">
-<!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
 
@@ -109,12 +107,13 @@ HeadAsset::register($this);
                                                                
 								<li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
+                                                                <li class=""><a href="#testimonials">Depoimentos</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
-<!--								<li class=""><a href="#testimonials">Depoimentos</a></li>
-								<li class=""><a href="#news">Notícias</a></li>
+								
+<!--								<li class=""><a href="#news">Notícias</a></li>
 								<li class=""><a href="#contact">Contatos</a></li>-->
 							</ul>
 						</div>
@@ -140,12 +139,13 @@ HeadAsset::register($this);
                                                                 <li class=""><a href="#about">Perfil</a></li>
                                                                 <li class=""><a href="#cursos">Cursos</a></li>
 								<li class=""><a href="#services">Serviços</a></li>
+                                                                <li class=""><a href="#testimonials">Depoimentos</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
-<!--								<li class=""><a href="#testimonials">Depoimentos</a></li>
-								<li class=""><a href="#news">Notícias</a></li>
+								
+<!--								<li class=""><a href="#news">Notícias</a></li>
 								<li class=""><a href="#contact">Contatos</a></li>-->
 				</ul>
 			</div>
