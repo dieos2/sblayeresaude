@@ -187,15 +187,15 @@ HeadAsset::register($this);
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeIn;">
                            
-                            <p style="color: #000;">+55 91 987027815</p>
+                            <p style="">+55 91 987027815</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeIn;">
                          
-                            <p style="color: #000;">Trav. Enéas Pinheiro 2738 - Sala 2, Belém-PA. 66095-015.</p>
+                            <p style="">Trav. Enéas Pinheiro 2738 - Sala 2, Belém-PA. 66095-015.</p>
                         </li>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;">
                            
-                            <p style="color: #000;">sb.laseresaude@gmail.com</p>
+                            <p style="">sb.laseresaude@gmail.com</p>
                         </li>
                     </ul>
                 </div>
