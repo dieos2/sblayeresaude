@@ -109,9 +109,10 @@ HeadAsset::register($this);
 								<li class=""><a href="#services">Serviços</a></li>
                                                                 <li class=""><a href="#testimonials">Depoimentos</a></li>
                                                                 <li class=""><a href="#contact">Contato</a></li>
-                                                                <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
+                                                                <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blanck" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
-                                                                <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
+                                                                <li class=""><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="images/instagram.png"/></a></li>
+                                                                 <li class=""><a href="https://api.whatsapp.com/send?phone=5591987027815" target="_blank" class=""><img width="25" src="images/whatzapp.png"/></a></li>
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
 								
 <!--								<li class=""><a href="#news">Notícias</a></li>
@@ -142,9 +143,10 @@ HeadAsset::register($this);
 								<li class=""><a href="#services">Serviços</a></li>
                                                                 <li class=""><a href="#testimonials">Depoimentos</a></li>
                                                                 <li class=""><a href="#contact">Contato</a></li>
-                                                                <li class="" style="margin-right: 2px;"><a href="#" class=""><img width="25" src="images/facebook.png"/></a></li>
+                                                                <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blanck" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
-                                                                <li class=""><a href="#" class=""><img width="25" src="images/instagram.png"/></a></li>
+                                                                <li class=""><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="images/instagram.png"/></a></li>
+                                                                  <li class=""><a href="https://api.whatsapp.com/send?phone=5591987027815" target="_blank" class=""><img width="25" src="images/whatzapp.png"/></a></li>
 								<!--<li class=""><a href="#portfolio">Agenda</a></li>-->
 								
 <!--								<li class=""><a href="#news">Notícias</a></li>
@@ -183,7 +185,7 @@ HeadAsset::register($this);
                     <ul>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeIn;">
                             <div class="image_holder logo">
-                                <img src="/SBlaser_files/logo.png" alt="">
+                                <img width="120" src="/images/logobranca.png" alt="">
                             </div>
                            
                         </li>
