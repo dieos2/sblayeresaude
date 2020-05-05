@@ -87,8 +87,12 @@ $isMobile = true;
   <!-- ABOUT -->
     <div class="wesley_tm_section" >
         <div class="container">
-            <div class="wesley_tm_about_wrap" id="about">
+            <div class="wesley_tm_about_wrap" id="about"> <div class="wesley_tm_main_title_holder" >
+                    <h3>Perfil</h3>
+                    
+                </div>
                 <div class="author_wrap">
+                    
                     <div class="leftbox">
                         <div class="image_wrap">
                             <img src="<?= $sobre->foto ?>" alt="">
