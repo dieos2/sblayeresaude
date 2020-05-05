@@ -102,13 +102,13 @@ HeadAsset::register($this);
 							<ul class="anchor_nav">
 								<li class="current"><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
-                                                                 <li class=""><a itemMenu href="#atuacao">Atuação</a></li>
+                                                                 <li class=""><a class="itemMenu" href="#atuacao">Atuação</a></li>
                                                                  <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
                                                                
-								<li class=""><a itemMenu href="#cursos">Cursos</a></li>
-								<li class=""><a itemMenu href="#services">Serviços</a></li>
-                                                                <li class=""><a itemMenu href="#testimonials">Depoimentos</a></li>
-                                                                <li class=""><a itemMenu href="#contact">Contato</a></li>
+								<li class=""><a class="itemMenu" href="#cursos">Cursos</a></li>
+								<li class=""><a class="itemMenu" href="#services">Serviços</a></li>
+                                                                <li class=""><a class="itemMenu" href="#testimonials">Depoimentos</a></li>
+                                                                <li class=""><a class="itemMenu" href="#contact">Contato</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blank" class=""><img width="25" src="/images/facebook.png"/></a></li>
                                                                 
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="/images/instagram.png"/></a></li>
@@ -137,12 +137,12 @@ HeadAsset::register($this);
 								
                                                               <li class="current"><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
-                                                                <li class=""><a href="#atuacao">Atuação</a></li>
-                                                                <li class=""><a href="#about">Perfil</a></li>
-                                                                <li class=""><a href="#cursos">Cursos</a></li>
-								<li class=""><a href="#services">Serviços</a></li>
-                                                                <li class=""><a href="#testimonials">Depoimentos</a></li>
-                                                                <li class=""><a href="#contact">Contato</a></li>
+                                                                <li class=""><a class="itemMenu" href="#atuacao">Atuação</a></li>
+                                                                <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
+                                                                <li class=""><a class="itemMenu" href="#cursos">Cursos</a></li>
+								<li class=""><a class="itemMenu" href="#services">Serviços</a></li>
+                                                                <li class=""><a class="itemMenu" href="#testimonials">Depoimentos</a></li>
+                                                                <li class=""><a class="itemMenu" href="#contact">Contato</a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blanck" class=""><img width="25" src="images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="images/instagram.png"/></a></li>
