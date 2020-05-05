@@ -6,10 +6,10 @@
  * and open the template in the editor.
  */
  
-  $to      = $_POST['email'];
+  $to      = 'sb.laseresaude@gmail.com';
 $subject = 'Contato Site';
 $message = $_POST['nome']." - ". $_POST['mensagem'];
-$headers = 'From: sb.laseresaude@gmail.com ' . "\r\n" .
+$headers = 'From: '.$_POST['email'] . "\r\n" .
    
     'X-Mailer: PHP/' . phpversion();
 
@@ -21,6 +21,6 @@ mail($to, $subject, $message, $headers);
     $(function(){
         alert("Sua mensagem foi enviada com sucesso!");
         
-        setTimeout(function(){ window.location.href = 'http://sblaseresaude.com.br/'; }, 5000);
+        setTimeout(function(){ window.location.href = 'http://sblaseresaude.com.br/'; }, 3000);
     })
     </script>
