@@ -48,3 +48,14 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             </div>
       </div>
+<script>
+    $(function(){
+      
+       
+       $( "ul.anchor_nav li a.itemMenu" ).each(function( index ) {
+            var href = "http://sblaseresaude.com.br"+ $(this).attr("href");
+            $(this).attr("href", href);
+            
+});
+    });
+    </script>

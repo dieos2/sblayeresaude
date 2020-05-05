@@ -60,7 +60,7 @@ $this->params['breadcrumbs'][] = $this->title;
     $(function(){
       
        
-       $( "ul.anchor_nav li a" ).each(function( index ) {
+       $( "ul.anchor_nav li a.itemMenu" ).each(function( index ) {
             var href = "http://sblaseresaude.com.br"+ $(this).attr("href");
             $(this).attr("href", href);
             
