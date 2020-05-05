@@ -9,14 +9,14 @@
   $to      = $_POST['email'];
 $subject = 'Contato Site';
 $message = $_POST['nome']." - ". $_POST['mensagem'];
-$headers = 'From: dieos2@gmail.com.com' . "\r\n" .
+$headers = 'From: sb.laseresaude@gmail.com ' . "\r\n" .
    
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
 
 ?> 
-
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script>
     $(function(){
         alert("Sua mensagem foi enviada com sucesso!");
