@@ -415,7 +415,7 @@ $isMobile = true;
                             <textarea id="mensagem" name="mensagem"  placeholder="Sua Mensagem"></textarea>
                         </div>
                         <div class="wesley_tm_button wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;">
-                            <button class="btn btn-default" style="    background-color: orange !important;
+                            <button id="send_message" class="btn btn-default" style="    background-color: orange !important;
     color: white !important;
     font-size: 15px;
     padding: 15px;
@@ -460,5 +460,11 @@ $isMobile = true;
     </div>
   
     <!-- /CONTACT -->
-
-  
+<script>
+    $(function(){
+      $("#enviaemail").click(function(){
+          if()
+          
+      })
+    })
+    </script>
