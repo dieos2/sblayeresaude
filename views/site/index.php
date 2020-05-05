@@ -415,7 +415,11 @@ $isMobile = true;
                             <textarea id="mensagem" name="mensagem"  placeholder="Sua Mensagem"></textarea>
                         </div>
                         <div class="wesley_tm_button wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;">
-                            <button class="btn btn-default" type="submit" id="" ><span>Enviar Mensagem</span></button>
+                            <button class="btn btn-default" style="    background-color: orange !important;
+    color: white !important;
+    font-size: 15px;
+    padding: 15px;
+}" type="submit" id="" ><span>Enviar Mensagem</span></button>
                         </div>
                     </form>
                 </div>
