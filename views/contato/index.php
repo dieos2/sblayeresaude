@@ -8,28 +8,12 @@ use yii\grid\GridView;
 
 $this->title = 'Contatos';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
-<div class="contato-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        <?= Html::a('Create Contato', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
-
-            'id',
-            'email:email',
-            'telefone',
-            'data',
-            'id_user',
-
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
-
-</div>
+<?= $model->nome?>
+<script>
+    $(function(){
+        
+        alert("Mensagem enviada")
+    })
+    </script>

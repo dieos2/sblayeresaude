@@ -88,6 +88,8 @@ class SiteController extends Controller {
    ->orderBy('Id')
    ->all();
   
+            
+            
         return $this->render('index', [
             'sobre' => $sobre,
             'atuacao' => $atuacao,

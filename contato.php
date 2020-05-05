@@ -5,14 +5,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
-$to      = 'dieos2@gmail.com';
-$subject = 'Teste';
-$message = 'Olá';
+ 
+  $to      = $_POST['email'];
+$subject = 'Contato Site';
+$message = $_POST['nome']." - ". $_POST['mensagem'];
 $headers = 'From: dieos2@gmail.com.com' . "\r\n" .
    
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
+
 ?> 
+
+<script>
+    $(function(){
+        alert("Sua mensagem foi enviada com sucesso!");
+        
+        setTimeout(function(){ window.location.href = 'http://sblaseresaude.com.br/'; }, 5000);
+    })
+    </script>

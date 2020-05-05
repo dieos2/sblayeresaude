@@ -32,12 +32,11 @@ class ContatoController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-            'query' => Contato::find(),
-        ]);
+        
+     
 
         return $this->render('index', [
-            'dataProvider' => $dataProvider,
+            'dataProvider' => $model,
         ]);
     }
 

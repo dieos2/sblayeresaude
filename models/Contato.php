@@ -31,7 +31,7 @@ class Contato extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['email', 'telefone', 'data', 'id_user'], 'required'],
+            [['email', 'nome', 'mensagem', 'telefone', 'data', 'id_user'], 'required'],
             [['data'], 'safe'],
             [['id_user'], 'integer'],
             [['email', 'telefone'], 'string', 'max' => 50],
@@ -47,6 +47,8 @@ class Contato extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'email' => 'Email',
+             'nome' => 'Nome',
+             'mensagem' => 'Mensagem',
             'telefone' => 'Telefone',
             'data' => 'Data',
             'id_user' => 'Id User',
