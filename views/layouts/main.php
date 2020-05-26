@@ -106,6 +106,7 @@ HeadAsset::register($this);
                                                                  <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
                                                                
 								<li class=""><a class="itemMenu" href="#cursos">Cursos</a></li>
+                                                                <li class=""><a class="itemMenu" href="#cursosOnline">Cursos Online</a></li>
 								<li class=""><a class="itemMenu" href="#services">Serviços</a></li>
                                                                 <li class=""><a class="itemMenu" href="#testimonials">Depoimentos</a></li>
                                                                 <li class=""><a class="itemMenu" href="#contact">Contato</a></li>
@@ -140,6 +141,7 @@ HeadAsset::register($this);
                                                                 <li class=""><a class="itemMenu" href="#atuacao">Atuação</a></li>
                                                                 <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
                                                                 <li class=""><a class="itemMenu" href="#cursos">Cursos</a></li>
+                                                                  <li class=""><a class="itemMenu" href="#cursosOnline">Cursos Online</a></li>
 								<li class=""><a class="itemMenu" href="#services">Serviços</a></li>
                                                                 <li class=""><a class="itemMenu" href="#testimonials">Depoimentos</a></li>
                                                                 <li class=""><a class="itemMenu" href="#contact">Contato</a></li>

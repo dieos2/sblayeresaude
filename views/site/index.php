@@ -157,6 +157,45 @@ $isMobile = true;
     </div>
     <!-- /SERVICES -->
    
+    
+    <div class="wesley_tm_section" id="cursos">
+        <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
+            <div class="wesley_tm_first_style">
+                <div class="wesley_tm_main_title_holder" >
+                    <h3>Cursos Online</h3>
+                    
+                </div>
+                <div class="container">
+                    <div class="wesley_tm_services_wrap">
+                        <ul class="wesley_tm_miniboxes" >
+                           <?php
+                foreach ($cursosOnline as $data) {?>
+                            <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
+                                <a href="/curso/view?id=<?= $data->id?>"><div class="inner">
+                                    <div class="detail_wrap">
+                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                            
+                                        </div>
+                                        <span><?= $data->titulo  ?></span>
+                                        <p style="font-style: italic"> <?= $data->subtitulo  ?></p>
+                                       
+                                        <p>  Público Alvo: <?= $data->publicoAlvo  ?>
+                                        </p>
+                                    </div>
+                                    <div class="overlay_color"></div>
+                                </div>
+                                    </a>
+                            </li>
+                <?php }?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+          
+
+        </div>
+    </div>
 
   
    <!-- SERVICES -->
