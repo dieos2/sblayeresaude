@@ -158,7 +158,7 @@ $isMobile = true;
     <!-- /SERVICES -->
    
     
-    <div class="wesley_tm_section" id="cursos">
+    <div class="wesley_tm_section" id="cursosOnline">
         <div class="wesley_tm_service_wrapper_all" data-bg="white" data-style="first" data-animation="bottom">
             <div class="wesley_tm_first_style">
                 <div class="wesley_tm_main_title_holder" >
