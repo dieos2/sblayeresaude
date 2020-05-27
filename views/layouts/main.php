@@ -242,3 +242,10 @@ HeadAsset::register($this);
 </body>
 </html>
 <?php $this->endPage() ?>
+<script>
+    $(function(){
+    $('.itemMenu').click(function(){
+    $('.hamburger').trigger("click");
+    })
+    })
+</script>
