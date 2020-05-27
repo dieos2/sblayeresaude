@@ -134,7 +134,6 @@ HeadAsset::register($this);
    		<div class="wesley_tm_mobile_menu_wrap">
    			<div class="mob_menu">
 				<ul class="anchor_nav">
-					<li class="current"><a href="#home">Home</a></li>
 								
                                                               <li class="current"><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
@@ -187,7 +186,7 @@ HeadAsset::register($this);
                     <ul>
                         <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeIn;">
                             <div class="image_holder logo">
-                                <img width="120" src="/images/logobranca.png" alt="">
+                                <img width="120" src="/images/logobranca.png?v=1" alt="">
                             </div>
                            
                         </li>
