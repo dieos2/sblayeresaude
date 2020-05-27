@@ -242,6 +242,7 @@ HeadAsset::register($this);
 </body>
 </html>
 <?php $this->endPage() ?>
+<?php if($isMobile): ?>
 <script>
     $(function(){
     $('.itemMenu').click(function(){
@@ -249,3 +250,4 @@ HeadAsset::register($this);
     })
     })
 </script>
+<?php endif ?>

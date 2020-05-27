@@ -423,7 +423,7 @@ $isMobile = true;
     </div>-->
     <!-- /NEWS -->
 
-  <div class="wesley_tm_section" >
+  <div class="wesley_tm_section" id="contact">
     <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
@@ -432,7 +432,7 @@ $isMobile = true;
            
         </div>
         <div class="container">
-            <div class="wesley_tm_about_wrap" id="contact">
+            <div class="wesley_tm_about_wrap" >
                 <div class="author_wrap" style="width: 100% !important; <?php if($isMobile) echo 'display: block !important'; ?>">
                     <div class="<?php if(!$isMobile) echo 'leftbox'; ?>" style="width: <?php if($isMobile) echo '100%'; else echo '80%'; ?>; background: #fff; padding: 15px;">
                         <div class="wesley_tm_main_title_holder about">
