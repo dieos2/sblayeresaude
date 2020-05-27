@@ -427,7 +427,7 @@ $isMobile = true;
     <div class="wesley_tm_contact_wrap_all">
             <div class="wesley_tm_main_title_holder contact">
                 <h3>Contato</h3>
-                <span>Dúvidas? Entre em contato, responderemos o mais breve possível!</span>
+               
             </div>
            
         </div>
