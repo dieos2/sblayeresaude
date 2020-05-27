@@ -433,8 +433,8 @@ $isMobile = true;
         </div>
         <div class="container">
             <div class="wesley_tm_about_wrap" id="contact">
-                <div class="author_wrap" style="width: 100% !important">
-                    <div class="<?php if(!$isMobile) echo leftbox ?>" style="width: 80%; background: #fff; padding: 15px;">
+                <div class="author_wrap" style="width: 100% !important; <?php if($isMobile) echo 'display: block !important'; ?>">
+                    <div class="<?php if(!$isMobile) echo 'leftbox'; ?>" style="width: <?php if($isMobile) echo '100%'; else echo '80%'; ?>; background: #fff; padding: 15px;">
                         <div class="wesley_tm_main_title_holder about">
                             <h3  style="color: orange">Envie sua mensagem</h3>
                         </div>
@@ -465,24 +465,8 @@ $isMobile = true;
             </div>
                       
                     </div>
-<!--                    <div class="rightbox" style="min-height: 540px">
-                        <div class="wesley_tm_main_title_holder about">
-                            <h3 style="color: orange">Contatos</h3>
-                        </div>
-                       
-                        <div class="definition">
-						<p></p>
-						<p></p>
-                            <p>sb.laseresaude@gmail.com<p>
-                            <p>+55 91 987027815 <img style="width: 33px;" src="https://www.jungnapratica.com.br/wp-content/uploads/2019/05/icon-whatsApp.png" /></p>
 
-                            <p>+55 91 989708375 Agendamento de Consultas</p>
-
-                          
-                        </div>
-                       
-                    </div> -->
-                    <div class="rightbox" style="min-height: 540px">
+                    <div class="<?php if(!$isMobile) echo 'rightbox'; ?>" style="min-height: 540px">
                         <div class="wesley_tm_main_title_holder about">
                             <h3 style="color: orange">Facebook</h3>
                         </div>
