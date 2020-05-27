@@ -46,7 +46,7 @@ HeadAsset::register($this);
 <link href="/SBlaser_files/css" rel="stylesheet">
 <link href="/SBlaser_files/css(1)" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/plugins.css">
-<link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css">
+<link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css?v=1">
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
 

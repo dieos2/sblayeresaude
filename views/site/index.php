@@ -434,7 +434,7 @@ $isMobile = true;
         <div class="container">
             <div class="wesley_tm_about_wrap" id="contact">
                 <div class="author_wrap" style="width: 100% !important">
-                    <div class="leftbox" style="width: 80%; background: #fff; padding: 15px;">
+                    <div class="<?php if(!$isMobile) echo leftbox ?>" style="width: 80%; background: #fff; padding: 15px;">
                         <div class="wesley_tm_main_title_holder about">
                             <h3  style="color: orange">Envie sua mensagem</h3>
                         </div>
