@@ -35,8 +35,10 @@ $this->params['breadcrumbs'][] = $this->title;
       <?= $model->texto ?>
        <p></p>
        <p></p>
+      <?php if(!$model->online): ?>
        <p style="font-style: italic; font-size: 10px ">Observação: pode haver discreta variação de conteúdo programático ou carga horária de acordo com a necessidade do local de realização do curso.</p>
-    </div>
+ <?php endif ?>   
+ </div>
     <div class="col-md-4">
         <img class="img-fluid" src="http://admin.sblaseresaude.com.br/images/uploads/<?= $model->foto?>" alt="">
         
