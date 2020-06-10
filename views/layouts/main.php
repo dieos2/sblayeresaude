@@ -131,7 +131,27 @@ HeadAsset::register($this);
 				</div>
 			</div>
 		</div>
-   		<div class="wesley_tm_mobile_menu_wrap">
+        
+    </header>
+    <!-- /HEADER -->
+        <?php $this->head() ?>
+        <style>
+            .wesley_tm_mobile_menu_wrap{
+                 margin-top: 80px;}
+            .wesley_tm_trigger{
+                display: none
+            }
+            .wesley_tm_mobile_menu_wrap .mob_menu > ul > li {
+    margin: 0px 0px 5px 5px;
+   
+    float: left;
+    width: 44%;
+    background-color: orange;
+    padding: 5px;
+    color: #fff;
+    text-align: center;}
+            </style>
+   		<div class="wesley_tm_mobile_menu_wrap" <?php if($isMobile) echo "style='display: block !important'" ?>>
    			<div class="mob_menu">
 				<ul class="anchor_nav">
 								
@@ -155,10 +175,6 @@ HeadAsset::register($this);
 				</ul>
 			</div>
 		</div>
-    </header>
-    <!-- /HEADER -->
-        <?php $this->head() ?>
-        
 
         <?php $this->beginBody() ?>
         <?= Html::csrfMetaTags() ?>
