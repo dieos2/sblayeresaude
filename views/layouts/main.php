@@ -141,6 +141,10 @@ HeadAsset::register($this);
             .wesley_tm_trigger{
                 display: none
             }
+            .wesley_tm_mobile_menu_wrap .mob_menu > ul > li > a{
+                color: #fff
+            }
+            
             .wesley_tm_mobile_menu_wrap .mob_menu > ul > li {
     margin: 0px 0px 5px 5px;
    
