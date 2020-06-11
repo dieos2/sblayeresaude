@@ -100,7 +100,7 @@ HeadAsset::register($this);
 					<div class="nav_list_wrap">
 						<div class="menu">
 							<ul class="anchor_nav">
-								<li class="current"><a href="/">Home</a></li>
+								<li class=""><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
                                                                  <li class=""><a class="itemMenu" href="#atuacao">Atuação</a></li>
                                                                  <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
@@ -159,9 +159,9 @@ HeadAsset::register($this);
    			<div class="mob_menu">
 				<ul class="anchor_nav">
 								
-                                                              <li class="current"><a href="/">Home</a></li>
+                                                              <li class=""><a href="/">Home</a></li>
 								<!--<li class=""><a href="#sore">Sobre</a></li>-->
-                                                                <li class=""><a class="itemMenu" href="#atuacao">Atuação</a></li>
+                                                                <li class=""><a  class="itemMenu" href="#atuacao">Atuação</a></li>
                                                                 <li class=""><a class="itemMenu" href="#about">Perfil</a></li>
                                                                 <li class=""><a class="itemMenu" href="#cursos">Cursos</a></li>
                                                                   <li class=""><a class="itemMenu" href="#cursosOnline">Cursos Online</a></li>
