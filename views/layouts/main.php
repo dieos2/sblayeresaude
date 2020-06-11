@@ -46,7 +46,7 @@ HeadAsset::register($this);
 <link href="/SBlaser_files/css" rel="stylesheet">
 <link href="/SBlaser_files/css(1)" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/SBlaser_files/plugins.css">
-<link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css?v=1">
+<link rel="stylesheet" type="text/css" href="/SBlaser_files/style.css?v=2">
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
 
@@ -113,8 +113,8 @@ HeadAsset::register($this);
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blank" class=""><img width="25" src="/images/facebook.png"/></a></li>
                                                                 
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="/images/instagram.png"/></a></li>
-                                                                 <li class=""><a href="https://api.whatsapp.com/send?phone=5591984309052" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
-                                                                <li class=""><a href="#contact" class="itemMenu"><img width="25" src="/images/email.png"/></a></li>
+                                                                 <li class="" style="margin-right: 2px;"><a href="https://api.whatsapp.com/send?phone=5591984309052" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
+                                                                <li class="" style="margin-right: 2px;"><a href="#contact" class="itemMenu"><img width="25" src="/images/email.png"/></a></li>
                                                                  <!--	<li class=""><a href="#portfolio">Agenda</a></li>-->
 								
 <!--								<li class=""><a href="#news">Notícias</a></li>
