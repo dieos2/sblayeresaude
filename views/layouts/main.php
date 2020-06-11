@@ -31,7 +31,7 @@ HeadAsset::register($this);
 <?php BottomAsset::register($this);    ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<!-- saved from url=(0060)http://frenify.com/envato/marketify/html/wesley/1/index.html -->
+<!-- saved from url=(0060)https://frenify.com/envato/marketify/html/wesley/1/index.html -->
 <html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
@@ -237,7 +237,7 @@ HeadAsset::register($this);
 </div>
 <!-- /CONTENT -->
 
-<a class="wesley_tm_totop" href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-angle-up"></i></a> 
+<a class="wesley_tm_totop" href="https://frenify.com/envato/marketify/html/wesley/1/index.html#"><i class="xcon-angle-up"></i></a> 
 
 
           
