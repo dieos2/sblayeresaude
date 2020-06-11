@@ -132,7 +132,7 @@ $isMobile = true;
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
                                 <a href="/curso/view?id=<?= $data->id?>"><div class="inner">
                                     <div class="detail_wrap">
-                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(https://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
                                             
                                         </div>
                                         <span><?= $data->titulo  ?></span>
@@ -190,7 +190,7 @@ $isMobile = true;
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
                                 <a href="/curso/view?id=<?= $data->id?>"><div class="inner">
                                     <div class="detail_wrap">
-                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                        <div id="curso<?= intval($data->id)?>" class="curso image" style="background-size: cover; background-image: url(https://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
                                             
                                         </div>
                                         <span><?= $data->titulo  ?></span>
@@ -231,7 +231,7 @@ $isMobile = true;
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
                                 <a href="/servico/view?id=<?= $data->id?>"><div class="inner">
                                     <div class="detail_wrap">
-                                        <div class="image" style="background-size: cover; background-image: url(http://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
+                                        <div class="image" style="background-size: cover; background-image: url(https://admin.sblaseresaude.com.br/images/uploads/<?= $data->foto?>)">
                                             
                                         </div>
                                       
@@ -319,18 +319,18 @@ $isMobile = true;
                             <div class="image_overlay"></div>
                             <div class="image_definition">
                                 <div class="title">
-                                    <a class="#" href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">AOC Productions</a>
+                                    <a class="#" href="https://frenify.com/envato/marketify/html/wesley/1/index.html#">AOC Productions</a>
                                 </div>
                             </div>
                             <div class="link">
-                                <a class="zoom" href="http://frenify.com/envato/marketify/html/wesley/1/img/portfolio/1.jpg"></a>
+                                <a class="zoom" href="https://frenify.com/envato/marketify/html/wesley/1/img/portfolio/1.jpg"></a>
                             </div>
                         </div>
                     </div>
                   <?php }?>
                 </div>
                 <div class="wesley_tm_button">
-                    <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html"><span>Ver todas</span></a>
+                    <a href="https://frenify.com/envato/marketify/html/wesley/1/index.html"><span>Ver todas</span></a>
                 </div>
             </div>
 
@@ -403,14 +403,14 @@ $isMobile = true;
                                     <img class="small" src="./SBlaser_files/500x350.jpg" alt="">
                                     <img class="big" src="./SBlaser_files/1170x450.jpg" alt="">
                                     <div class="news_image" data-url="img/blog/1.jpg" style="background-image: url(&quot;img/blog/1.jpg&quot;);"></div>
-                                    <a class="link_news" href="http://frenify.com/envato/marketify/html/wesley/1/index.html"></a>
+                                    <a class="link_news" href="https://frenify.com/envato/marketify/html/wesley/1/index.html"></a>
                                 </div>
                                 <div class="definitions_wrap">
                                     <div class="date_wrap">
                                        
                                     </div>
                                     <div class="title_holder">
-                                        <h3><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html"><?= $data->titulo?></a></h3>
+                                        <h3><a href="https://frenify.com/envato/marketify/html/wesley/1/index.html"><?= $data->titulo?></a></h3>
                                     </div>
                                     <div class="definition">
                                         <p><?= substr($data->texto, 0, 150);?></p>
@@ -420,14 +420,14 @@ $isMobile = true;
                                     </div>
                                     <div class="wesley_tm_popup_share_wrap">
                                         <ul>
-                                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">Facebook</a></li>
-                                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">Twitter</a></li>
-                                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">Linkedin</a></li>
-                                            <li><a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#">Behance</a></li>
+                                            <li><a href="https://frenify.com/envato/marketify/html/wesley/1/index.html#">Facebook</a></li>
+                                            <li><a href="https://frenify.com/envato/marketify/html/wesley/1/index.html#">Twitter</a></li>
+                                            <li><a href="https://frenify.com/envato/marketify/html/wesley/1/index.html#">Linkedin</a></li>
+                                            <li><a href="https://frenify.com/envato/marketify/html/wesley/1/index.html#">Behance</a></li>
                                         </ul>
                                     </div>
                                     <div class="read_more">
-                                        <a href="http://frenify.com/envato/marketify/html/wesley/1/index.html#"><span>Ler Mais</span></a>
+                                        <a href="https://frenify.com/envato/marketify/html/wesley/1/index.html#"><span>Ler Mais</span></a>
                                     </div>
                                 </div>
                             </div>
