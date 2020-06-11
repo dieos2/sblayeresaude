@@ -168,6 +168,23 @@ $isMobile = true;
                 <div class="container">
                     <div class="wesley_tm_services_wrap">
                         <ul class="wesley_tm_miniboxes" >
+                            <?php
+                              if(count($cursosOnline) == 1 && !$isMobile){      ?>
+                            <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
+                                <a href=""><div class="">
+                                    <div class="detail_wrap">
+                                       
+                                        <span></span>
+                                        <p style="font-style: italic"></p>
+                                       
+                                        <p>
+                                        </p>
+                                    </div>
+                                    <div class="overlay_color"></div>
+                                </div>
+                                    </a>
+                            </li>
+                              <?php }?>
                            <?php
                 foreach ($cursosOnline as $data) {?>
                             <li class="wow fadeInUp wesley_tm_minibox" data-wow-duration="1.2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: fadeInUp; height: 334px;">
