@@ -34,6 +34,8 @@ HeadAsset::register($this);
 <!-- saved from url=(0060)https://frenify.com/envato/marketify/html/wesley/1/index.html -->
 <html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<link rel=”shortcut icon” href=”/favicon.png”>
+
 
 
 <meta name="description" content="Name of your web site">
@@ -113,7 +115,7 @@ HeadAsset::register($this);
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blank" class=""><img width="25" src="/images/facebook.png"/></a></li>
                                                                 
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="/images/instagram.png"/></a></li>
-                                                                 <li class="" style="margin-right: 2px;"><a href="https://api.whatsapp.com/send?phone=5591984309052" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
+                                                                 <li class="" style="margin-right: 2px;"><a href="https://api.whatsapp.com/send?phone=5591987027815" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
                                                                 <li class="" style="margin-right: 2px;"><a href="#contact" class="itemMenu"><img width="25" src="/images/email.png"/></a></li>
                                                                  <!--	<li class=""><a href="#portfolio">Agenda</a></li>-->
 								
@@ -149,7 +151,7 @@ HeadAsset::register($this);
                                                                 <li class="" style="margin-right: 2px;"><a href="https://www.facebook.com/sb.laseresaude/" target="_blanck" class=""><img width="25" src="/images/facebook.png"/></a></li>
                                                                 
                                                                 <li class=""><a href="https://www.instagram.com/saviobastos.sb" target="_blank" class=""><img width="25" src="/images/instagram.png"/></a></li>
-                                                               <li class=""><a href="https://api.whatsapp.com/send?phone=5591984309052" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
+                                                               <li class=""><a href="https://api.whatsapp.com/send?phone=5591987027815" target="_blank" class=""><img width="25" src="/images/whatzapp.png"/></a></li>
                                                              <li class=""><a href="#contact" class="itemMenu"><img width="25" src="/images/email.png"/></a></li>
                                                                <!--  		<li class=""><a href="#portfolio">Agenda</a></li>-->
 								
