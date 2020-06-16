@@ -36,10 +36,14 @@ HeadAsset::register($this);
 
 <link rel=”shortcut icon” href=”/favicon.icon” type="image/x-icon" />
 
-
-
-<meta name="description" content="Name of your web site">
-<meta name="author" content="Marketify">
+<meta property="og:url" content="https://sblaseresaude.com.br/">
+<meta property="og:title" content="Sávio Bastos Laser e Saúde">
+<meta property="og:description" content="A Sávio Bastos Laser e Saúde é uma empresa de Cursos e Consultoria para aprimoramento de profissionais da área da saúde, direcionada principalmente para formações em Fotobiomodulação e Fonoaudiologia. Também contempla atendimentos de Fonoaudiologia em âmbito hospitalar e clínico, principalmente nas alterações de deglutição e voz. Além de atendimentos com Laserterapia, Auriculoterapia e Terapia CranioSacral.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sblaseresaude.com.br/SBlaser_files/22.png">
+<meta property="fb:app_id" content="861473337301977">
+<meta name="description" content="Sávio Bastos Laser e Saúde">
+<meta name="author" content="Sávio Bastos">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
