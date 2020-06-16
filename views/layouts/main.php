@@ -33,6 +33,15 @@ HeadAsset::register($this);
 <!DOCTYPE html>
 <!-- saved from url=(0060)https://frenify.com/envato/marketify/html/wesley/1/index.html -->
 <html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120532595-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120532595-2');
+</script>
 
 <link rel=”shortcut icon” href=”/favicon.icon” type="image/x-icon" />
 
