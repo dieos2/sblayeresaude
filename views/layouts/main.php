@@ -34,7 +34,7 @@ HeadAsset::register($this);
 <!-- saved from url=(0060)https://frenify.com/envato/marketify/html/wesley/1/index.html -->
 <html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel=”shortcut icon” href=”/favicon.png” type="image/x-icon" />
+<link rel=”shortcut icon” href=”/favicon.icon” type="image/x-icon" />
 
 
 
