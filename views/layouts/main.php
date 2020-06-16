@@ -43,8 +43,8 @@ HeadAsset::register($this);
 <meta property="og:image" content="http://sblaseresaude.com.br/images/fundosite.png">
 
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="800"> 
-<meta property="og:image:height" content="600"> 
+<meta property="og:image:width" content="960"> 
+<meta property="og:image:height" content="366"> 
 <meta property="fb:app_id" content="861473337301977">
 <meta name="description" content="Sávio Bastos Laser e Saúde">
 <meta name="author" content="Sávio Bastos">
