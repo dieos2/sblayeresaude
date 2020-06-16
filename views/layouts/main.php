@@ -42,7 +42,7 @@ HeadAsset::register($this);
 <meta property="og:type" content="website">
 <meta property="og:image" content="http://sblaseresaude.com.br/images/fundosite.png">
 
-<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="800"> 
 <meta property="og:image:height" content="600"> 
 <meta property="fb:app_id" content="861473337301977">
