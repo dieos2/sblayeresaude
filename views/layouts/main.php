@@ -114,7 +114,7 @@ HeadAsset::register($this);
 			<div class="container">
 				<div class="navigation_inner">
 					<div class="logo">
-						<a class="light_logo" href="/"><img width="118" src="/SBlaser_files/logo.png" alt=""></a>
+						<a class="light_logo" href="/"><img width="150" src="/SBlaser_files/logo.png" alt=""></a>
 					</div>
 					<div class="nav_list_wrap">
 						<div class="menu">
