@@ -24,7 +24,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Portfolio Item Row -->
   <div class="row">
  <div class="col-md-8">
-     
+     <?= if ($model->id == 7){?>
+       <p><a class="btn btn-default" href="https://pay.hotmart.com/S33206453U?checkoutMode=10" style="background-color: orange; color: #fff !important" target="_blank">Garanta sua vaga.</a></p>
+         <?= } ?> 
       <p> <span><strong>Objetivo:</strong> </span> <span><?= $model->objetivo ?></span></p>
          
       <p>  <strong>Publico Alvo:</strong> <?= $model->publicoAlvo?></p>
